@@ -14,7 +14,7 @@ Optional: Create the Eclipse project files (`mvn eclipse:eclipse`).
 
 Build a database of commits with BugAID:
 ```bash
-mvn exec:java -Dexec.mainClass="ca.ubc.ece.salt.pangor.js.learn.LearningAnalysisMain" -Dexec.args="--repositories ./input/javascript_repositories.txt --regex \"fix|repair|bug|error|resolve|close|issue\"  --dataset ./output/dataset.csv"
+mvn exec:java -Dexec.mainClass="ca.ubc.ece.salt.pangor.js.learn.LearningAnalysisMain" -Dexec.args="--repositories ./input/javascript_repositories.txt --regex \"fix\"  --dataset ./output/dataset.csv"
 ```
 
 ### Cluster Construction ###
