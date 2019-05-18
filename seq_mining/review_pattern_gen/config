@@ -7,4 +7,4 @@ owner = sharma-swati
 repo = defects4j
 lang = Java
 [Rule]
-threshold = 3
+threshold = 10
