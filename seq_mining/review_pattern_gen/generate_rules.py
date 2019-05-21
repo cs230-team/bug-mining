@@ -42,9 +42,10 @@ def remove_dup_changes(changes_sets):
 def generate_rules(changes_sets, threshold):
     ps = PrefixSpan(changes_sets)
     print("Start rule generation")
-    # freq_seqs = ps.frequent(minsup=int(len(new_changes) * 0.1), closed=True)
-    freq_seqs = ps.frequent(minsup=threshold, closed=True)
-
+    print("Total change sets", len(changes_sets))
+    freq_seqs = ps.frequent(minsup=int(len(changes_sets) * 0.1), closed=True)
+    #freq_seqs = ps.frequent(minsup=threshold, closed=True)
+    print("Found frequent seqs ",len(freq_seqs))
     # freq_seqs = PrefixSpan_frequent(
     #     ps, minsup=int(len(new_changes) * 0.1), closed=True)
     freq_seqs = [x for x in freq_seqs
@@ -59,7 +60,6 @@ with open(INPUT_JSON_NAME, mode='r', encoding='utf-8') as f:
     changes_sets = load(f)
 
 changes = remove_dup_changes(changes_sets)
-
 # new_changes = []
 # for tokens in changes:
 #     new_tokens = [x for x in tokens
@@ -70,9 +70,13 @@ changes = remove_dup_changes(changes_sets)
 changes = [[x for x in tokens
             if not x.endswith("\n") and not x.endswith(" ")]
            for tokens in changes]
+print("## About to call generate_rules ##")
+#with open('temp', mode='w', encoding='utf-8') as f:
+#    dump(changes, f, indent=1)
 
+changes = changes[:20]
 freq_seqs = generate_rules(changes, threshold)
-
+print("## Finished executing generate_rules ##")
 new_rules = []
 
 for i, rule in enumerate(freq_seqs):
