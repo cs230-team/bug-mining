@@ -1,0 +1,9 @@
+https://github.com/strongloop/express.git
+https://github.com/node-modules/hessian.js.git
+https://github.com/eslint/eslint.git
+https://github.com/karma-runner/karma.git
+https://github.com/mranney/node_redis.git
+https://github.com/badges/shields.git
+https://github.com/hexojs/hexo.git
+https://github.com/Automattic/mongoose.git
+https://github.com/pencilblue/pencilblue.git
