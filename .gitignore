@@ -10,7 +10,7 @@ test/output/
 .classpath
 .project
 .settings
-output/
 target/
 dependencies/
 input/promises.txt
+*nohup*
