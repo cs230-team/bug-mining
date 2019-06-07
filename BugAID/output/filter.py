@@ -18,7 +18,7 @@ for bug in bugs:
 	bugid = find_next(bug,0)
 	commit = find_next(bug,find_next(bug,find_next(bug,bugid)))
 	if True:
-		f2.writeline('{}'.format(index)+bug[bugid:])
+		f2.write('{},'.format(index)+bug[bugid:])
 		index+=1
 #f1.close()
 f2.close()
