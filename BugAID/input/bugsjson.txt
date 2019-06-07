@@ -1,0 +1,10 @@
+https://github.com/BugsJS/express.git
+https://github.com/BugsJS/shields.git
+https://github.com/BugsJS/bower.git
+https://github.com/BugsJS/hexo.git
+https://github.com/BugsJS/karma.git
+https://github.com/BugsJS/hessian.js.git
+https://github.com/BugsJS/eslint.git
+https://github.com/BugsJS/node_redis.git
+https://github.com/BugsJS/pencilblue.git
+https://github.com/BugsJS/mongoose.git

@@ -2,7 +2,7 @@ import csv
 import myVersion
 import os
 import subprocess as sp
-
+import numpy as np
 
 
 def checkout(param_dict):
@@ -46,9 +46,8 @@ with open("./Projects.csv", 'r') as infile:
         reader = csv.DictReader(infile, delimiter=";")
         for row in reader:
             projects.append(row["Name"])
-
+commits=[]
 for project in projects:
-	commits = []
 	clone_repo(get_project_repository({'project':project}), 'test')
 	
 	for bug_id in range(1, 100):
@@ -60,3 +59,4 @@ for project in projects:
 		commits.append(commit_id)
 	os.chdir("../..")
 print(commits)
+np.save(commits)
