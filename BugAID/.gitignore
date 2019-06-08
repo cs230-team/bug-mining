@@ -1,0 +1,16 @@
+bin/
+lib/
+tmp/
+repositories/
+test/output/
+.DS_Store
+*.swp
+*.log
+*.class
+.classpath
+.project
+.settings
+target/
+dependencies/
+input/promises.txt
+*nohup*
