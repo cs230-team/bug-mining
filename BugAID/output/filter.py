@@ -13,7 +13,7 @@ def find_next(a,start):
 		i=i+1
 	return i+start+1
 
-f1 = open('bugsjsonall.csv', 'r')
+f1 = open('bugsjsonrepos_all.csv', 'r')
 f2 = open('bugsjson.csv','w')
 ids = np.load('commits.npy')
 bugs = f1.readlines()
