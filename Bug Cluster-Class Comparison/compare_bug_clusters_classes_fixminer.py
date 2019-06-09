@@ -67,12 +67,11 @@ for tree_type in categories_dict:
         for cluster_num in categories_dict[tree_type]:
                 if categories_dict[tree_type][cluster_num]['bug_count'] > 1:
                         print('')
-                        print('Cluster Number',cluster_num)
+                        print('\tCluster Number',cluster_num)
                         for pattern in categories_dict[tree_type][cluster_num]:
                                 if pattern != 'pattern_count' and pattern != 'bug_count':
                                         tmp = categories_dict[tree_type][cluster_num][pattern] / categories_dict[tree_type][cluster_num]['bug_count']
-                                        if tmp >= 0.15 * categories_dict[tree_type][cluster_num]['bug_count']:
-                                                # print(categories_dict[tree_type][cluster_num][pattern],'&',categories_dict[tree_type][cluster_num]['bug_count'])
-                                                print(pattern,'with confidence',tmp)
+                                        if tmp >= 0.3:
+                                                print('\t\t',pattern,'with confidence',tmp)
         print('')
         print('')
