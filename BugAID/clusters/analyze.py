@@ -23,6 +23,13 @@ for idx,row in enumerate(output):
 	except:
 		pattern_id='0'
 	#print(output[idx])
-	output[idx].append(str(pattern_id))
-np.save(file_name+'_c', output)
+	for colidx,col in enumerate(row):
+		output[idx][colidx]=col.split("=")[-1]
+	cluster = output[idx][0]
+	output[idx].append(cluster)
+	output[idx][0]=changes
+	output[idx].append(pattern_id)
+d=pd.DataFrame(output, columns=['changes','instances','complexity','basic changes','project count','clusterid','pattern id'])
+d.to_csv(file_name+'_df',index=False)
+#np.save(file_name+'_c', output)
 
