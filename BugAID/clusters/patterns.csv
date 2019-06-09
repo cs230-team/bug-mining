@@ -1,0 +1,13 @@
+D,Fault,Repair,Change Types Groups
+1,Dereferenced non-values,Protect with falsey check,"5, 8, 37, 30, 40, 91, 95, 169, 172, 180"
+2,Dereferenced non-values,Protect with value check,"24, 55"
+3,Dereferenced non-values,Protect with type check,"24, 46, 55, 99"
+4,Incorrect comparison,Compare fewer types,"55, 108, 181"
+5,Incorrect comparison,Compare more types,128
+6,Missing argument,Add 'null' placeholder,"70, 82"
+7,Incorrect API configuration,Set boolean config option,"1, 7, 17, 43, 50, 116"
+8,'this' not correctly bound,Access 'this' through closure,"62, 81"
+9,'this' not correctly bound,Bind 'this',141
+10,Unhandled error,Catch thrown exception,64
+11,Unhandled error,Propagate to callback,134
+12,Unhandled error,Check callback exception,180
