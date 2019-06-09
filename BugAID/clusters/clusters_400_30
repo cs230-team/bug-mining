@@ -202,7 +202,7 @@ OS name: "linux", version: "4.15.0-1032-gcp", arch: "amd64", family: "unix"
 [DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
 [DEBUG] Failure to find ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
 [DEBUG] Failure to find ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=0, ConflictMarker.nodeCount=166, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=48, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9, ConflictResolver.conflictItemCount=165, DefaultDependencyCollector.collectTime=199, DefaultDependencyCollector.transformTime=15}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=0, ConflictMarker.nodeCount=166, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=1, ConflictIdSorter.conflictIdCount=48, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=10, ConflictResolver.conflictItemCount=165, DefaultDependencyCollector.collectTime=216, DefaultDependencyCollector.transformTime=17}
 [DEBUG] ca.ubc.ece.salt:bugaid:jar:0.1-SNAPSHOT
 [DEBUG]    org.apache.logging.log4j:log4j-api:jar:2.3:compile
 [DEBUG]    org.apache.logging.log4j:log4j-core:jar:2.3:compile
@@ -254,7 +254,7 @@ OS name: "linux", version: "4.15.0-1032-gcp", arch: "amd64", family: "unix"
 [DEBUG]    ca.ubc.ece.salt:pangor-js-learn:jar:0.1-SNAPSHOT:compile
 [INFO] 
 [INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ bugaid ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=93, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=78, DefaultDependencyCollector.collectTime=138, DefaultDependencyCollector.transformTime=3}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=93, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=78, DefaultDependencyCollector.collectTime=142, DefaultDependencyCollector.transformTime=4}
 [DEBUG] org.codehaus.mojo:exec-maven-plugin:jar:1.6.0:
 [DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
 [DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
@@ -314,7 +314,7 @@ OS name: "linux", version: "4.15.0-1032-gcp", arch: "amd64", family: "unix"
 [DEBUG]   (f) arguments = []
 [DEBUG]   (f) classpathScope = runtime
 [DEBUG]   (f) cleanupDaemonThreads = true
-[DEBUG]   (f) commandlineArgs = --dataset ./output/bugsjson.csv --complexity 6 --epsilon 1 --complexityWeight 0.2 --minClusterSize 3 --arff-path ./output/arff/1
+[DEBUG]   (f) commandlineArgs = --dataset ./output/bugsjson.csv --complexity 6 --epsilon 30 --complexityWeight 0.2 --minClusterSize 3 --arff-path ./output/arff/30
 [DEBUG]   (f) daemonThreadJoinTimeout = 15000
 [DEBUG]   (f) includePluginDependencies = false
 [DEBUG]   (f) includeProjectDependencies = true
@@ -428,12 +428,12 @@ RESERVED:CONDITION:REMOVED:global:typeof : 2
 RESERVED:METHOD_CALL:INSERTED:global:catch : 2
 RESERVED:STATEMENT:INSERTED:global:new : 2
 RESERVED:ARGUMENT:REMOVED:global:true : 1
-1         {RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 0, Instances = 5, Complexity = 2, BasicChanges = 1, ProjectCount = 2
+1         {}: ClusterID = 0, Instances = 34, Complexity = 2, BasicChanges = 0, ProjectCount = 6
 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.223 s
-[INFO] Finished at: 2019-06-09T20:06:30+00:00
+[INFO] Total time: 1.212 s
+[INFO] Finished at: 2019-06-09T20:04:20+00:00
 [INFO] Final Memory: 14M/286M
 [INFO] ------------------------------------------------------------------------
