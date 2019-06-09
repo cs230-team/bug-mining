@@ -27,7 +27,7 @@ for idx,row in enumerate(output):
 		output[idx][colidx]=col.split("=")[-1].strip()
 	cluster = output[idx][0]
 	output[idx].append(cluster)
-	output[idx][0]="\n".join(changes)
+	output[idx][0]="\n".join(sorted(changes))
 	output[idx].append(pattern_id)
 d=pd.DataFrame(output, columns=['changes','instances','complexity','basic changes','project count','clusterid','pattern id'])
 d.to_csv(file_name+'.csv',index=False)
