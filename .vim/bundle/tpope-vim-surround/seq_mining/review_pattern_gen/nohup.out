@@ -1,0 +1,30 @@
+## About to call generate_rules ##
+Start rule generation
+Total change sets 20
+Traceback (most recent call last):
+  File "generate_rules.py", line 78, in <module>
+    freq_seqs = generate_rules(changes, threshold)
+  File "generate_rules.py", line 46, in generate_rules
+    freq_seqs = ps.frequent(minsup=int(len(changes_sets) * 0.1), closed=True)
+  File "/home/Jay/pypy/site-packages/prefixspan/frequent.py", line 70, in PrefixSpan_frequent
+    results = self._mine(frequent_rec)
+  File "/home/Jay/pypy/site-packages/prefixspan/prefixspan.py", line 19, in _mine
+    func([], [(i, -1) for i in range(len(self._db))])
+  File "/home/Jay/pypy/site-packages/prefixspan/frequent.py", line 61, in frequent_rec
+    frequent_rec(newpatt, newmatches)
+  File "/home/Jay/pypy/site-packages/prefixspan/frequent.py", line 61, in frequent_rec
+    frequent_rec(newpatt, newmatches)
+  File "/home/Jay/pypy/site-packages/prefixspan/frequent.py", line 61, in frequent_rec
+    frequent_rec(newpatt, newmatches)
+  [Previous line repeated 20 more times]
+  File "/home/Jay/pypy/site-packages/prefixspan/frequent.py", line 56, in frequent_rec
+    closed and canclosedprune(self._db, newpatt, newmatches) or
+  File "/home/Jay/pypy/site-packages/prefixspan/closed.py", line 45, in canclosedprune
+    return __reversescan(db, [None, *patt], matches[:])
+  File "/home/Jay/pypy/site-packages/prefixspan/closed.py", line 28, in __reversescan
+    return any(islocalclosed(previtem) for previtem in reversed(patt[:-1]))
+  File "/home/Jay/pypy/site-packages/prefixspan/closed.py", line 28, in <genexpr>
+    return any(islocalclosed(previtem) for previtem in reversed(patt[:-1]))
+  File "/home/Jay/pypy/site-packages/prefixspan/closed.py", line 14, in islocalclosed
+    for startpos in range(endpos - 1, -1, -1):
+KeyboardInterrupt

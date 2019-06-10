@@ -1,0 +1,807 @@
+Apache Maven 3.3.9
+Maven home: /usr/share/maven
+Java version: 1.8.0_212, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-1032-gcp", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/Jay/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/Jay/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/Jay/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/Jay/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project ca.ubc.ece.salt:bugaid:jar:0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix exec from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix exec to org.codehaus.mojo:exec-maven-plugin from repository central
+[DEBUG] Resolving plugin version for org.codehaus.mojo:exec-maven-plugin
+[DEBUG] Could not find metadata org.codehaus.mojo:exec-maven-plugin/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo:exec-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.codehaus.mojo:exec-maven-plugin to 1.6.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: ca.ubc.ece.salt:bugaid:jar:0.1-SNAPSHOT
+[DEBUG] Tasks:   [exec:java]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BugAID 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin prefix exec from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix exec to org.codehaus.mojo:exec-maven-plugin from repository central
+[DEBUG] Resolving plugin version for org.codehaus.mojo:exec-maven-plugin
+[DEBUG] Could not find metadata org.codehaus.mojo:exec-maven-plugin/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo:exec-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.codehaus.mojo:exec-maven-plugin to 1.6.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       ca.ubc.ece.salt:bugaid:0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [commitminer (http://ece.ubc.ca/~qhanam/maven/, default, releases+snapshots), labri (http://se.labri.fr/maven/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addOutputToClasspath default-value="true">${addOutputToClasspath}</addOutputToClasspath>
+  <addResourcesToClasspath default-value="false">${addResourcesToClasspath}</addResourcesToClasspath>
+  <arguments>${exec.arguments}</arguments>
+  <classpathScope default-value="runtime">${exec.classpathScope}</classpathScope>
+  <cleanupDaemonThreads default-value="true">${exec.cleanupDaemonThreads}</cleanupDaemonThreads>
+  <commandlineArgs>${exec.args}</commandlineArgs>
+  <daemonThreadJoinTimeout default-value="15000">${exec.daemonThreadJoinTimeout}</daemonThreadJoinTimeout>
+  <includePluginDependencies default-value="false">${exec.includePluginsDependencies}</includePluginDependencies>
+  <includeProjectDependencies default-value="true">${exec.includeProjectDependencies}</includeProjectDependencies>
+  <keepAlive default-value="false">${exec.keepAlive}</keepAlive>
+  <killAfter default-value="-1">${exec.killAfter}</killAfter>
+  <localRepository default-value="${localRepository}"/>
+  <mainClass>${exec.mainClass}</mainClass>
+  <pluginDependencies default-value="${plugin.artifacts}"/>
+  <project default-value="${project}"/>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <skip default-value="false">${exec.skip}</skip>
+  <sourceRoot>${sourceRoot}</sourceRoot>
+  <stopUnresponsiveDaemonThreads default-value="false">${exec.stopUnresponsiveDaemonThreads}</stopUnresponsiveDaemonThreads>
+  <testSourceRoot>${testSourceRoot}</testSourceRoot>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Could not find metadata fr.labri.gumtree:core:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for fr.labri.gumtree:core:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.gumtree:core:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata fr.labri.gumtree:core:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for fr.labri.gumtree:core:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.gumtree:core:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata fr.labri.gumtree:gumtree:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for fr.labri.gumtree:gumtree:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.gumtree:gumtree:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Skipped remote request for fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml in http://rendersnake.googlecode.com/svn/repo was cached in the local repository, resolution will not be reattempted until the update interval of rendersnake-repo has elapsed or updates are forced
+[DEBUG] Could not find metadata fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Skipped remote request for fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find fr.labri.utils:utils:1.0-SNAPSHOT/maven-metadata.xml in http://rendersnake.googlecode.com/svn/repo was cached in the local repository, resolution will not be reattempted until the update interval of rendersnake-repo has elapsed or updates are forced
+[DEBUG] Could not find metadata fr.labri.gumtree:gen.js:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.js:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.js:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata fr.labri.gumtree:gen.js:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.js:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.js:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata fr.labri.gumtree:gen.jdt:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.jdt:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.jdt:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata fr.labri.gumtree:gen.jdt:1.0-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.jdt:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for fr.labri.gumtree:gen.jdt:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-core:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-core:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-core:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-core:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-core:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-core:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-js:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-js:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-learn:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-learn:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-learn:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-learn:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-learn:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-learn:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Could not find metadata ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in local (/home/Jay/.m2/repository)
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in http://ece.ubc.ca/~qhanam/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of commitminer has elapsed or updates are forced
+[DEBUG] Failure to find ca.ubc.ece.salt:pangor-js-learn:0.1-SNAPSHOT/maven-metadata.xml in http://se.labri.fr/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of labri has elapsed or updates are forced
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=0, ConflictMarker.nodeCount=166, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=1, ConflictIdSorter.conflictIdCount=48, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7, ConflictResolver.conflictItemCount=165, DefaultDependencyCollector.collectTime=200, DefaultDependencyCollector.transformTime=13}
+[DEBUG] ca.ubc.ece.salt:bugaid:jar:0.1-SNAPSHOT
+[DEBUG]    org.apache.logging.log4j:log4j-api:jar:2.3:compile
+[DEBUG]    org.apache.logging.log4j:log4j-core:jar:2.3:compile
+[DEBUG]    org.slf4j:slf4j-api:jar:1.7.10:compile
+[DEBUG]    org.slf4j:log4j-over-slf4j:jar:1.7.10:compile
+[DEBUG]    org.slf4j:slf4j-simple:jar:1.7.10:compile
+[DEBUG]    junit:junit:jar:4.11:compile
+[DEBUG]    org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]    org.kohsuke:github-api:jar:1.69:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]       commons-codec:commons-codec:jar:1.7:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.2.3:compile
+[DEBUG]       commons-io:commons-io:jar:1.4:compile
+[DEBUG]       com.infradna.tool:bridge-method-annotation:jar:1.14:compile
+[DEBUG]          org.jenkins-ci:annotation-indexer:jar:1.4:compile
+[DEBUG]    args4j:args4j:jar:2.0.23:compile
+[DEBUG]    args4j:args4j-tools:jar:2.0.23:compile
+[DEBUG]       ant:ant:jar:1.5:compile
+[DEBUG]       jdk:tools:jar:5.0:system
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.3.2:compile
+[DEBUG]    trove:trove:jar:1.0.2:compile
+[DEBUG]    net.sf.trove4j:trove4j:jar:3.0.3:compile
+[DEBUG]    org.eclipse.jgit:org.eclipse.jgit:jar:3.7.0.201502260915-r:compile
+[DEBUG]       com.googlecode.javaewah:JavaEWAH:jar:0.7.9:compile
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.1.3:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.1.4:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]    com.jcraft:jsch:jar:0.1.51:compile
+[DEBUG]    nz.ac.waikato.cms.weka:weka-dev:jar:3.7.12:compile
+[DEBUG]       net.sf.squirrel-sql.thirdparty-non-maven:java-cup:jar:0.11a:compile
+[DEBUG]       org.pentaho.pentaho-commons:pentaho-package-manager:jar:1.0.8:compile
+[DEBUG]    fr.labri.utils:utils:jar:1.0-20130410.213900-5:compile
+[DEBUG]    ca.ubc.ece.salt:optics_dbscan:jar:1.0.0:compile
+[DEBUG]    ca.ubc.ece.salt:rhino:jar:1.0.0:compile
+[DEBUG]    ca.ubc.ece.salt:jdt-core:jar:1.0.0:compile
+[DEBUG]    ca.ubc.ece.salt:iris:jar:1.0.0:compile
+[DEBUG]    fr.labri.gumtree:core:jar:1.0-SNAPSHOT:compile
+[DEBUG]       simmetrics:simmetrics:jar:1_6_2_d07_02_07:compile
+[DEBUG]    fr.labri.gumtree:gen.js:jar:1.0-SNAPSHOT:compile
+[DEBUG]       org.mozilla:rhino:jar:1.7R4:compile
+[DEBUG]    fr.labri.gumtree:gen.jdt:jar:1.0-SNAPSHOT:compile
+[DEBUG]       org.eclipse.jdt:jdt:jar:3.7.1.v_B76_R37x:compile
+[DEBUG]       org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.0:compile
+[DEBUG]    ca.ubc.ece.salt:pangor-core:jar:0.1-SNAPSHOT:compile
+[DEBUG]    ca.ubc.ece.salt:pangor-js:jar:0.1-SNAPSHOT:compile
+[DEBUG]    ca.ubc.ece.salt:pangor-learn:jar:0.1-SNAPSHOT:compile
+[DEBUG]    ca.ubc.ece.salt:pangor-js-learn:jar:0.1-SNAPSHOT:compile
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ bugaid ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=93, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=78, DefaultDependencyCollector.collectTime=146, DefaultDependencyCollector.transformTime=3}
+[DEBUG] org.codehaus.mojo:exec-maven-plugin:jar:1.6.0:
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.12:test
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.apache.commons:commons-exec:jar:1.3:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:exec-maven-plugin:1.6.0
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:exec-maven-plugin:1.6.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:exec-maven-plugin:1.6.0
+[DEBUG]   Included: org.codehaus.mojo:exec-maven-plugin:jar:1.6.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.3
+[DEBUG] Configuring mojo org.codehaus.mojo:exec-maven-plugin:1.6.0:java from plugin realm ClassRealm[plugin>org.codehaus.mojo:exec-maven-plugin:1.6.0, parent: sun.misc.Launcher$AppClassLoader@7d4991ad]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:exec-maven-plugin:1.6.0:java' with basic configurator -->
+[DEBUG]   (f) addOutputToClasspath = true
+[DEBUG]   (f) addResourcesToClasspath = false
+[DEBUG]   (f) arguments = []
+[DEBUG]   (f) classpathScope = runtime
+[DEBUG]   (f) cleanupDaemonThreads = true
+[DEBUG]   (f) commandlineArgs = --dataset ./output/bugsjsonall.csv --complexity 6 --epsilon 0.3 --complexityWeight 0.2 --minClusterSize 5
+[DEBUG]   (f) daemonThreadJoinTimeout = 15000
+[DEBUG]   (f) includePluginDependencies = false
+[DEBUG]   (f) includeProjectDependencies = true
+[DEBUG]   (f) keepAlive = false
+[DEBUG]   (f) killAfter = -1
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/Jay/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) mainClass = ca.ubc.ece.salt.pangor.learn.LearningDataSetMain
+[DEBUG]   (f) pluginDependencies = [org.codehaus.mojo:exec-maven-plugin:maven-plugin:1.6.0:, org.apache.maven:maven-toolchain:jar:2.2.1:compile, org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-artifact:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-core:jar:2.2.1:compile, org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile, org.slf4j:slf4j-jdk14:jar:1.5.6:runtime, org.slf4j:slf4j-api:jar:1.5.6:runtime, org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime, org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile, org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile, org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile, org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile, commons-cli:commons-cli:jar:1.2:compile, org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile, org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile, org.apache.maven:maven-monitor:jar:2.2.1:compile, classworlds:classworlds:jar:1.1:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils:jar:3.0.20:compile, org.apache.commons:commons-exec:jar:1.3:compile]
+[DEBUG]   (f) project = MavenProject: ca.ubc.ece.salt:bugaid:0.1-SNAPSHOT @ /home/Jay/bugaid/BugAID/pom.xml
+[DEBUG]   (f) remoteRepositories = [      id: commitminer
+      url: http://ece.ubc.ca/~qhanam/maven/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: labri
+      url: http://se.labri.fr/maven/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) stopUnresponsiveDaemonThreads = false
+[DEBUG] -- end configuration --
+[DEBUG] Invoking : ca.ubc.ece.salt.pangor.learn.LearningDataSetMain.main()
+[DEBUG] Plugin Dependencies will be excluded.
+[DEBUG] Project Dependencies will be included.
+[DEBUG] Collected project artifacts [org.apache.logging.log4j:log4j-api:jar:2.3:compile, org.apache.logging.log4j:log4j-core:jar:2.3:compile, org.slf4j:slf4j-api:jar:1.7.10:compile, org.slf4j:log4j-over-slf4j:jar:1.7.10:compile, org.slf4j:slf4j-simple:jar:1.7.10:compile, junit:junit:jar:4.11:compile, org.hamcrest:hamcrest-core:jar:1.3:compile, org.kohsuke:github-api:jar:1.69:compile, commons-lang:commons-lang:jar:2.6:compile, commons-codec:commons-codec:jar:1.7:compile, com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile, com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:compile, com.fasterxml.jackson.core:jackson-core:jar:2.2.3:compile, commons-io:commons-io:jar:1.4:compile, com.infradna.tool:bridge-method-annotation:jar:1.14:compile, org.jenkins-ci:annotation-indexer:jar:1.4:compile, args4j:args4j:jar:2.0.23:compile, args4j:args4j-tools:jar:2.0.23:compile, ant:ant:jar:1.5:compile, org.apache.commons:commons-lang3:jar:3.3.2:compile, trove:trove:jar:1.0.2:compile, net.sf.trove4j:trove4j:jar:3.0.3:compile, org.eclipse.jgit:org.eclipse.jgit:jar:3.7.0.201502260915-r:compile, com.googlecode.javaewah:JavaEWAH:jar:0.7.9:compile, org.apache.httpcomponents:httpclient:jar:4.1.3:compile, org.apache.httpcomponents:httpcore:jar:4.1.4:compile, commons-logging:commons-logging:jar:1.1.1:compile, com.jcraft:jsch:jar:0.1.51:compile, nz.ac.waikato.cms.weka:weka-dev:jar:3.7.12:compile, net.sf.squirrel-sql.thirdparty-non-maven:java-cup:jar:0.11a:compile, org.pentaho.pentaho-commons:pentaho-package-manager:jar:1.0.8:compile, fr.labri.utils:utils:jar:1.0-SNAPSHOT:compile, ca.ubc.ece.salt:optics_dbscan:jar:1.0.0:compile, ca.ubc.ece.salt:rhino:jar:1.0.0:compile, ca.ubc.ece.salt:jdt-core:jar:1.0.0:compile, ca.ubc.ece.salt:iris:jar:1.0.0:compile, fr.labri.gumtree:core:jar:1.0-SNAPSHOT:compile, simmetrics:simmetrics:jar:1_6_2_d07_02_07:compile, fr.labri.gumtree:gen.js:jar:1.0-SNAPSHOT:compile, org.mozilla:rhino:jar:1.7R4:compile, fr.labri.gumtree:gen.jdt:jar:1.0-SNAPSHOT:compile, org.eclipse.jdt:jdt:jar:3.7.1.v_B76_R37x:compile, org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.0:compile, ca.ubc.ece.salt:pangor-core:jar:0.1-SNAPSHOT:compile, ca.ubc.ece.salt:pangor-js:jar:0.1-SNAPSHOT:compile, ca.ubc.ece.salt:pangor-learn:jar:0.1-SNAPSHOT:compile, ca.ubc.ece.salt:pangor-js-learn:jar:0.1-SNAPSHOT:compile]
+[DEBUG] Collected project classpath [/home/Jay/bugaid/BugAID/target/classes]
+[DEBUG] Adding to classpath : file:/home/Jay/bugaid/BugAID/target/classes/
+[DEBUG] Adding project dependency artifact: log4j-api to classpath
+[DEBUG] Adding project dependency artifact: log4j-core to classpath
+[DEBUG] Adding project dependency artifact: slf4j-api to classpath
+[DEBUG] Adding project dependency artifact: log4j-over-slf4j to classpath
+[DEBUG] Adding project dependency artifact: slf4j-simple to classpath
+[DEBUG] Adding project dependency artifact: junit to classpath
+[DEBUG] Adding project dependency artifact: hamcrest-core to classpath
+[DEBUG] Adding project dependency artifact: github-api to classpath
+[DEBUG] Adding project dependency artifact: commons-lang to classpath
+[DEBUG] Adding project dependency artifact: commons-codec to classpath
+[DEBUG] Adding project dependency artifact: jackson-databind to classpath
+[DEBUG] Adding project dependency artifact: jackson-annotations to classpath
+[DEBUG] Adding project dependency artifact: jackson-core to classpath
+[DEBUG] Adding project dependency artifact: commons-io to classpath
+[DEBUG] Adding project dependency artifact: bridge-method-annotation to classpath
+[DEBUG] Adding project dependency artifact: annotation-indexer to classpath
+[DEBUG] Adding project dependency artifact: args4j to classpath
+[DEBUG] Adding project dependency artifact: args4j-tools to classpath
+[DEBUG] Adding project dependency artifact: ant to classpath
+[DEBUG] Adding project dependency artifact: commons-lang3 to classpath
+[DEBUG] Adding project dependency artifact: trove to classpath
+[DEBUG] Adding project dependency artifact: trove4j to classpath
+[DEBUG] Adding project dependency artifact: org.eclipse.jgit to classpath
+[DEBUG] Adding project dependency artifact: JavaEWAH to classpath
+[DEBUG] Adding project dependency artifact: httpclient to classpath
+[DEBUG] Adding project dependency artifact: httpcore to classpath
+[DEBUG] Adding project dependency artifact: commons-logging to classpath
+[DEBUG] Adding project dependency artifact: jsch to classpath
+[DEBUG] Adding project dependency artifact: weka-dev to classpath
+[DEBUG] Adding project dependency artifact: java-cup to classpath
+[DEBUG] Adding project dependency artifact: pentaho-package-manager to classpath
+[DEBUG] Adding project dependency artifact: utils to classpath
+[DEBUG] Adding project dependency artifact: optics_dbscan to classpath
+[DEBUG] Adding project dependency artifact: rhino to classpath
+[DEBUG] Adding project dependency artifact: jdt-core to classpath
+[DEBUG] Adding project dependency artifact: iris to classpath
+[DEBUG] Adding project dependency artifact: core to classpath
+[DEBUG] Adding project dependency artifact: simmetrics to classpath
+[DEBUG] Adding project dependency artifact: gen.js to classpath
+[DEBUG] Adding project dependency artifact: rhino to classpath
+[DEBUG] Adding project dependency artifact: gen.jdt to classpath
+[DEBUG] Adding project dependency artifact: jdt to classpath
+[DEBUG] Adding project dependency artifact: org.eclipse.equinox.common to classpath
+[DEBUG] Adding project dependency artifact: pangor-core to classpath
+[DEBUG] Adding project dependency artifact: pangor-js to classpath
+[DEBUG] Adding project dependency artifact: pangor-learn to classpath
+[DEBUG] Adding project dependency artifact: pangor-js-learn to classpath
+[DEBUG] joining on thread Thread[ca.ubc.ece.salt.pangor.learn.LearningDataSetMain.main(),5,ca.ubc.ece.salt.pangor.learn.LearningDataSetMain]
+[DEBUG] Setting accessibility to true in order to invoke main().
+RESERVED:CONDITION:INSERTED:global:falsey : 970
+RESERVED:STATEMENT:UPDATED:global:var : 515
+RESERVED:STATEMENT:INSERTED:global:var : 433
+RESERVED:CONDITION:INSERTED:global:sheq : 344
+RESERVED:CONDITION:REMOVED:global:falsey : 335
+RESERVED:STATEMENT:INSERTED:global:return : 302
+RESERVED:STATEMENT:UPDATED:global:return : 246
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:true : 221
+RESERVED:CONDITION:INSERTED:global:typeof : 193
+RESERVED:STATEMENT:REMOVED:global:var : 175
+RESERVED:METHOD_CALL:INSERTED:global:this : 163
+RESERVED:CONDITION:REMOVED:global:sheq : 132
+RESERVED:STATEMENT:INSERTED:global:new : 125
+RESERVED:STATEMENT:REMOVED:global:return : 124
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:this : 118
+RESERVED:ARGUMENT:INSERTED:global:this : 106
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:false : 102
+RESERVED:STATEMENT:UPDATED:global:new : 81
+RESERVED:CONDITION:REMOVED:global:typeof : 80
+METHOD:METHOD_CALL:INSERTED:global:replace : 79
+RESERVED:CONDITION:INSERTED:global:eq : 73
+RESERVED:ASSIGNMENT_RHS:REMOVED:global:true : 69
+RESERVED:CONDITION:UPDATED:global:falsey : 68
+RESERVED:ARGUMENT:REMOVED:global:this : 66
+RESERVED:METHOD_CALL:INSERTED:global:callback : 66
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:this : 63
+RESERVED:ARGUMENT:INSERTED:global:error : 60
+RESERVED:CONDITION:INSERTED:global:null : 60
+FIELD:ASSIGNMENT_LHS:INSERTED:global:prototype : 59
+RESERVED:ARGUMENT:INSERTED:global:null : 58
+FIELD:CONDITION:INSERTED:global:length : 56
+METHOD:METHOD_CALL:INSERTED:global:indexOf : 52
+RESERVED:METHOD_CALL:REMOVED:global:this : 52
+RESERVED:CONDITION:INSERTED:global:this : 46
+RESERVED:CONDITION:INSERTED:global:error : 44
+RESERVED:CONDITION:REMOVED:global:eq : 44
+RESERVED:ASSIGNMENT_LHS:REMOVED:global:this : 43
+RESERVED:STATEMENT:REMOVED:global:new : 43
+CLASS:METHOD_CALL:INSERTED:global:Object : 41
+METHOD:METHOD_CALL:INSERTED:global:toString : 40
+RESERVED:ASSIGNMENT_RHS:REMOVED:global:false : 40
+RESERVED:ASSIGNMENT_RHS:REMOVED:global:this : 37
+RESERVED:EXCEPTION_CATCH:INSERTED:global:error : 37
+RESERVED:STATEMENT:INSERTED:global:try : 37
+RESERVED:ARGUMENT:INSERTED:global:true : 36
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:null : 36
+METHOD:METHOD_CALL:INSERTED:global:split : 30
+METHOD:METHOD_CALL:INSERTED:global:forEach : 29
+RESERVED:ARGUMENT:REMOVED:global:error : 29
+RESERVED:CONDITION:INSERTED:global:undefined : 29
+FIELD:EXPRESSION:INSERTED:global:length : 28
+METHOD:METHOD_CALL:INSERTED:global:keys : 28
+RESERVED:CONDITION:REMOVED:global:null : 28
+RESERVED:CONDITION:UPDATED:global:sheq : 28
+RESERVED:ARGUMENT:REMOVED:global:null : 27
+METHOD:METHOD_CALL:INSERTED:global:create : 26
+METHOD:METHOD_CALL:REMOVED:global:replace : 26
+RESERVED:ARGUMENT:INSERTED:global:false : 24
+RESERVED:EXPRESSION:INSERTED:global:this : 24
+RESERVED:METHOD_CALL:INSERTED:global:error : 24
+METHOD:METHOD_CALL:INSERTED:global:toLowerCase : 23
+RESERVED:ARGUMENT:INSERTED:global:callback : 22
+RESERVED:ARGUMENT:REMOVED:global:true : 22
+RESERVED:CONDITION:REMOVED:global:this : 22
+RESERVED:METHOD_CALL:REMOVED:global:callback : 21
+CLASS:METHOD_CALL:INSERTED:global:Array : 20
+METHOD:METHOD_CALL:INSERTED:global:call : 19
+METHOD:METHOD_CALL:INSERTED:global:exec : 19
+RESERVED:CONDITION:REMOVED:global:error : 19
+METHOD:METHOD_CALL:INSERTED:global:bind : 18
+METHOD:METHOD_CALL:INSERTED:global:push : 18
+FIELD:CONDITION:INSERTED:global:name : 17
+METHOD:METHOD_CALL:INSERTED:global:hasOwnProperty : 17
+METHOD:METHOD_CALL:INSERTED:global:test : 17
+METHOD:METHOD_CALL:INSERTED:global:substr : 16
+METHOD:METHOD_CALL:REMOVED:global:forEach : 16
+METHOD:METHOD_CALL:REMOVED:global:indexOf : 16
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:error : 16
+RESERVED:CONDITION:REMOVED:global:undefined : 16
+METHOD:METHOD_CALL:INSERTED:global:unshift : 15
+RESERVED:CONDITION:INSERTED:global:false : 15
+FIELD:METHOD_CALL:INSERTED:global:prototype : 14
+METHOD:METHOD_CALL:INSERTED:global:match : 14
+METHOD:METHOD_CALL:INSERTED:global:substring : 14
+METHOD:METHOD_CALL:INSERTED:global:trim : 14
+RESERVED:CONDITION:INSERTED:global:callback : 14
+RESERVED:STATEMENT:INSERTED:global:continue : 14
+FIELD:ASSIGNMENT_LHS:REMOVED:global:prototype : 13
+METHOD:METHOD_CALL:INSERTED:global:slice : 13
+RESERVED:ARGUMENT:REMOVED:global:callback : 13
+FIELD:ASSIGNMENT_RHS:INSERTED:global:length : 12
+METHOD:METHOD_CALL:INSERTED:global:concat : 12
+METHOD:METHOD_CALL:REMOVED:global:split : 12
+RESERVED:PARAMETER_DECLARATION:INSERTED:global:error : 12
+RESERVED:STATEMENT:INSERTED:global:break : 12
+METHOD:METHOD_CALL:INSERTED:global:map : 11
+RESERVED:ASSIGNMENT_RHS:REMOVED:global:null : 11
+RESERVED:EXPRESSION:INSERTED:global:error : 11
+METHOD:METHOD_CALL:INSERTED:global:apply : 10
+METHOD:METHOD_CALL:REMOVED:global:toLowerCase : 10
+RESERVED:ARGUMENT:REMOVED:global:arguments : 10
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:callback : 10
+RESERVED:STATEMENT:REMOVED:global:try : 10
+METHOD:METHOD_CALL:INSERTED:global:encodeURIComponent : 9
+METHOD:METHOD_CALL:INSERTED:global:reverse : 9
+METHOD:METHOD_CALL:INSERTED:global:stringify : 9
+METHOD:METHOD_CALL:REMOVED:global:unshift : 9
+RESERVED:CONDITION:INSERTED:global:true : 9
+RESERVED:EXCEPTION_CATCH:REMOVED:global:error : 9
+CLASS:METHOD_CALL:INSERTED:global:JSON : 8
+FIELD:CONDITION:INSERTED:global:constructor : 8
+FIELD:CONDITION:REMOVED:global:length : 8
+FIELD:EXPRESSION:INSERTED:global:name : 8
+METHOD:METHOD_CALL:INSERTED:global:defineProperty : 8
+METHOD:METHOD_CALL:INSERTED:global:filter : 8
+METHOD:METHOD_CALL:REMOVED:global:bind : 8
+RESERVED:ARGUMENT:INSERTED:global:arguments : 8
+RESERVED:ARGUMENT:REMOVED:global:false : 8
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:default : 8
+RESERVED:CONDITION:INSERTED:global:arguments : 8
+RESERVED:CONDITION:REMOVED:global:callback : 8
+RESERVED:CONDITION:UPDATED:global:eq : 8
+RESERVED:EXPRESSION:REMOVED:global:this : 8
+RESERVED:METHOD_CALL:REMOVED:global:error : 8
+CLASS:METHOD_CALL:REMOVED:global:JSON : 7
+FIELD:ASSIGNMENT_RHS:INSERTED:global:prototype : 7
+FIELD:ASSIGNMENT_RHS:REMOVED:global:name : 7
+METHOD:METHOD_CALL:REMOVED:global:apply : 7
+METHOD:METHOD_CALL:REMOVED:global:call : 7
+METHOD:METHOD_CALL:REMOVED:global:push : 7
+METHOD:METHOD_CALL:REMOVED:global:toString : 7
+RESERVED:ARGUMENT:INSERTED:global:undefined : 7
+RESERVED:CONDITION:INSERTED:global:new : 7
+RESERVED:PARAMETER_DECLARATION:INSERTED:global:callback : 7
+RESERVED:PARAMETER_DECLARATION:REMOVED:global:error : 7
+FIELD:CONDITION:REMOVED:global:name : 6
+FIELD:EXPRESSION:INSERTED:global:message : 6
+METHOD:METHOD_CALL:INSERTED:global:String : 6
+METHOD:METHOD_CALL:INSERTED:global:parseInt : 6
+METHOD:METHOD_CALL:INSERTED:global:toUpperCase : 6
+METHOD:METHOD_CALL:REMOVED:global:hasOwnProperty : 6
+METHOD:METHOD_CALL:REMOVED:global:parse : 6
+METHOD:METHOD_CALL:REMOVED:global:parseInt : 6
+METHOD:METHOD_CALL:UPDATED:global:replace : 6
+METHOD:METHOD_CALL:UPDATED:global:split : 6
+RESERVED:METHOD_CALL:INSERTED:global:for : 6
+RESERVED:STATEMENT:REMOVED:global:break : 6
+CLASS:METHOD_CALL:REMOVED:global:Array : 5
+FIELD:ASSIGNMENT_RHS:INSERTED:global:name : 5
+FIELD:ASSIGNMENT_RHS:REMOVED:global:length : 5
+FIELD:CONDITION:UPDATED:global:length : 5
+FIELD:EXPRESSION:REMOVED:global:name : 5
+METHOD:METHOD_CALL:INSERTED:global:isNaN : 5
+METHOD:METHOD_CALL:INSERTED:global:parse : 5
+METHOD:METHOD_CALL:INSERTED:global:sort : 5
+METHOD:METHOD_CALL:REMOVED:global:create : 5
+METHOD:METHOD_CALL:REMOVED:global:stringify : 5
+METHOD:METHOD_CALL:REMOVED:global:substring : 5
+RESERVED:CONDITION:REMOVED:global:false : 5
+RESERVED:EXPRESSION:REMOVED:global:error : 5
+RESERVED:VARIABLE_DECLARATION:INSERTED:global:error : 5
+CLASS:METHOD_CALL:INSERTED:global:Math : 4
+CLASS:METHOD_CALL:REMOVED:global:Date : 4
+CLASS:METHOD_CALL:REMOVED:global:Object : 4
+CLASS:METHOD_CALL:UPDATED:global:Array : 4
+FIELD:ASSIGNMENT_LHS:INSERTED:global:global : 4
+FIELD:ASSIGNMENT_LHS:INSERTED:global:message : 4
+FIELD:CONDITION:INSERTED:global:source : 4
+METHOD:METHOD_CALL:INSERTED:global:Number : 4
+METHOD:METHOD_CALL:REMOVED:global:concat : 4
+METHOD:METHOD_CALL:REMOVED:global:reverse : 4
+METHOD:METHOD_CALL:UPDATED:global:slice : 4
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:default : 4
+RESERVED:CONDITION:UPDATED:global:typeof : 4
+RESERVED:EXPRESSION:INSERTED:global:callback : 4
+RESERVED:METHOD_CALL:INSERTED:global:catch : 4
+RESERVED:STATEMENT:REMOVED:global:continue : 4
+CLASS:METHOD_CALL:INSERTED:global:Date : 3
+FIELD:ASSIGNMENT_LHS:INSERTED:global:name : 3
+FIELD:ASSIGNMENT_LHS:REMOVED:global:global : 3
+FIELD:ASSIGNMENT_RHS:INSERTED:global:message : 3
+FIELD:ASSIGNMENT_RHS:REMOVED:global:source : 3
+FIELD:EXPRESSION:UPDATED:global:length : 3
+FIELD:METHOD_CALL:REMOVED:global:name : 3
+METHOD:METHOD_CALL:INSERTED:global:charAt : 3
+METHOD:METHOD_CALL:INSERTED:global:decodeURIComponent : 3
+METHOD:METHOD_CALL:INSERTED:global:floor : 3
+METHOD:METHOD_CALL:INSERTED:global:shift : 3
+METHOD:METHOD_CALL:REMOVED:global:Number : 3
+METHOD:METHOD_CALL:REMOVED:global:String : 3
+METHOD:METHOD_CALL:REMOVED:global:defineProperty : 3
+METHOD:METHOD_CALL:REMOVED:global:filter : 3
+METHOD:METHOD_CALL:REMOVED:global:splice : 3
+METHOD:METHOD_CALL:REMOVED:global:test : 3
+METHOD:METHOD_CALL:UPDATED:global:indexOf : 3
+METHOD:METHOD_CALL:UPDATED:global:map : 3
+RESERVED:ARGUMENT:REMOVED:global:undefined : 3
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:arguments : 3
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:private : 3
+RESERVED:ASSIGNMENT_LHS:REMOVED:global:error : 3
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:error : 3
+RESERVED:ASSIGNMENT_RHS:REMOVED:global:undefined : 3
+RESERVED:CONDITION:UPDATED:global:new : 3
+RESERVED:METHOD_CALL:REMOVED:global:package : 3
+RESERVED:VARIABLE_DECLARATION:REMOVED:global:error : 3
+CLASS:METHOD_CALL:INSERTED:global:Error : 2
+CLASS:METHOD_CALL:UPDATED:global:Object : 2
+FIELD:ARGUMENT:INSERTED:global:prototype : 2
+FIELD:ASSIGNMENT_LHS:REMOVED:global:message : 2
+FIELD:ASSIGNMENT_LHS:UPDATED:global:prototype : 2
+FIELD:ASSIGNMENT_RHS:INSERTED:global:constructor : 2
+FIELD:CONDITION:INSERTED:global:message : 2
+FIELD:CONDITION:REMOVED:global:constructor : 2
+FIELD:CONDITION:REMOVED:global:message : 2
+FIELD:CONDITION:REMOVED:global:source : 2
+FIELD:CONDITION:UPDATED:global:source : 2
+FIELD:EXPRESSION:REMOVED:global:length : 2
+FIELD:METHOD_CALL:INSERTED:global:message : 2
+METHOD:METHOD_CALL:INSERTED:global:compile : 2
+METHOD:METHOD_CALL:INSERTED:global:getTime : 2
+METHOD:METHOD_CALL:INSERTED:global:lastIndexOf : 2
+METHOD:METHOD_CALL:INSERTED:global:localeCompare : 2
+METHOD:METHOD_CALL:INSERTED:global:random : 2
+METHOD:METHOD_CALL:INSERTED:global:reduce : 2
+METHOD:METHOD_CALL:INSERTED:global:some : 2
+METHOD:METHOD_CALL:INSERTED:global:splice : 2
+METHOD:METHOD_CALL:INSERTED:global:toFixed : 2
+METHOD:METHOD_CALL:INSERTED:global:toGMTString : 2
+METHOD:METHOD_CALL:INSERTED:global:unescape : 2
+METHOD:METHOD_CALL:REMOVED:global:getDate : 2
+METHOD:METHOD_CALL:REMOVED:global:keys : 2
+METHOD:METHOD_CALL:REMOVED:global:map : 2
+METHOD:METHOD_CALL:REMOVED:global:match : 2
+METHOD:METHOD_CALL:REMOVED:global:pop : 2
+METHOD:METHOD_CALL:REMOVED:global:shift : 2
+METHOD:METHOD_CALL:REMOVED:global:slice : 2
+METHOD:METHOD_CALL:REMOVED:global:toUpperCase : 2
+METHOD:METHOD_CALL:UPDATED:global:apply : 2
+METHOD:METHOD_CALL:UPDATED:global:match : 2
+METHOD:METHOD_CALL:UPDATED:global:test : 2
+METHOD:METHOD_CALL:UPDATED:global:valueOf : 2
+RESERVED:ARGUMENT:REMOVED:global:typeof : 2
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:catch : 2
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:new : 2
+RESERVED:ASSIGNMENT_LHS:REMOVED:global:callback : 2
+RESERVED:ASSIGNMENT_LHS:REMOVED:global:default : 2
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:callback : 2
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:undefined : 2
+RESERVED:ASSIGNMENT_RHS:REMOVED:global:callback : 2
+RESERVED:CONDITION:INSERTED:global:default : 2
+RESERVED:CONDITION:REMOVED:global:true : 2
+RESERVED:METHOD_CALL:INSERTED:global:function : 2
+RESERVED:METHOD_CALL:INSERTED:global:instanceof : 2
+RESERVED:METHOD_CALL:UPDATED:global:error : 2
+RESERVED:PARAMETER_DECLARATION:REMOVED:global:callback : 2
+RESERVED:PARAMETER_DECLARATION:UPDATED:global:error : 2
+RESERVED:STATEMENT:UPDATED:global:try : 2
+RESERVED:VARIABLE_DECLARATION:INSERTED:global:callback : 2
+CLASS:ARGUMENT:INSERTED:global:Date : 1
+CLASS:METHOD_CALL:INSERTED:global:Number : 1
+CLASS:METHOD_CALL:REMOVED:global:Error : 1
+CLASS:METHOD_CALL:REMOVED:global:Number : 1
+FIELD:ARGUMENT:REMOVED:global:constructor : 1
+FIELD:ASSIGNMENT_LHS:REMOVED:global:name : 1
+FIELD:ASSIGNMENT_LHS:UPDATED:global:name : 1
+FIELD:ASSIGNMENT_RHS:REMOVED:global:global : 1
+FIELD:ASSIGNMENT_RHS:REMOVED:global:prototype : 1
+FIELD:ASSIGNMENT_RHS:UPDATED:global:name : 1
+FIELD:CONDITION:UPDATED:global:message : 1
+FIELD:EXPRESSION:INSERTED:global:prototype : 1
+FIELD:EXPRESSION:REMOVED:global:message : 1
+FIELD:EXPRESSION:REMOVED:global:source : 1
+FIELD:METHOD_CALL:INSERTED:global:length : 1
+FIELD:METHOD_CALL:REMOVED:global:prototype : 1
+FIELD:METHOD_CALL:UPDATED:global:prototype : 1
+METHOD:ARGUMENT:INSERTED:global:create : 1
+METHOD:ARGUMENT:INSERTED:global:parse : 1
+METHOD:ARGUMENT:REMOVED:global:test : 1
+METHOD:METHOD_CALL:INSERTED:global:encodeURI : 1
+METHOD:METHOD_CALL:INSERTED:global:every : 1
+METHOD:METHOD_CALL:INSERTED:global:getOwnPropertyNames : 1
+METHOD:METHOD_CALL:INSERTED:global:is : 1
+METHOD:METHOD_CALL:INSERTED:global:pop : 1
+METHOD:METHOD_CALL:INSERTED:global:round : 1
+METHOD:METHOD_CALL:INSERTED:global:search : 1
+METHOD:METHOD_CALL:INSERTED:global:setMilliseconds : 1
+METHOD:METHOD_CALL:INSERTED:global:toISOString : 1
+METHOD:METHOD_CALL:INSERTED:global:toJSON : 1
+METHOD:METHOD_CALL:INSERTED:global:valueOf : 1
+METHOD:METHOD_CALL:REMOVED:global:decodeURIComponent : 1
+METHOD:METHOD_CALL:REMOVED:global:exec : 1
+METHOD:METHOD_CALL:REMOVED:global:getMonth : 1
+METHOD:METHOD_CALL:REMOVED:global:getOwnPropertyDescriptor : 1
+METHOD:METHOD_CALL:REMOVED:global:isNaN : 1
+METHOD:METHOD_CALL:REMOVED:global:random : 1
+METHOD:METHOD_CALL:REMOVED:global:sort : 1
+METHOD:METHOD_CALL:REMOVED:global:substr : 1
+METHOD:METHOD_CALL:REMOVED:global:toFixed : 1
+METHOD:METHOD_CALL:REMOVED:global:toISOString : 1
+METHOD:METHOD_CALL:REMOVED:global:toJSON : 1
+METHOD:METHOD_CALL:REMOVED:global:trim : 1
+METHOD:METHOD_CALL:UPDATED:global:call : 1
+METHOD:METHOD_CALL:UPDATED:global:compile : 1
+METHOD:METHOD_CALL:UPDATED:global:defineProperty : 1
+METHOD:METHOD_CALL:UPDATED:global:filter : 1
+METHOD:METHOD_CALL:UPDATED:global:getTime : 1
+METHOD:METHOD_CALL:UPDATED:global:push : 1
+METHOD:METHOD_CALL:UPDATED:global:setMilliseconds : 1
+METHOD:METHOD_CALL:UPDATED:global:sort : 1
+METHOD:METHOD_CALL:UPDATED:global:substring : 1
+METHOD:METHOD_CALL:UPDATED:global:toGMTString : 1
+METHOD:METHOD_CALL:UPDATED:global:toString : 1
+METHOD:METHOD_CALL:UPDATED:global:trim : 1
+RESERVED:ARGUMENT:INSERTED:global:default : 1
+RESERVED:ARGUMENT:UPDATED:global:callback : 1
+RESERVED:ARGUMENT:UPDATED:global:error : 1
+RESERVED:ARGUMENT:UPDATED:global:typeof : 1
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:boolean : 1
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:const : 1
+RESERVED:ASSIGNMENT_LHS:INSERTED:global:var : 1
+RESERVED:ASSIGNMENT_LHS:REMOVED:global:new : 1
+RESERVED:ASSIGNMENT_LHS:UPDATED:global:error : 1
+RESERVED:ASSIGNMENT_RHS:INSERTED:global:arguments : 1
+RESERVED:ASSIGNMENT_RHS:REMOVED:global:static : 1
+RESERVED:CONDITION:REMOVED:global:arguments : 1
+RESERVED:CONDITION:REMOVED:global:new : 1
+RESERVED:CONDITION:UPDATED:global:error : 1
+RESERVED:EXPRESSION:INSERTED:global:arguments : 1
+RESERVED:EXPRESSION:REMOVED:global:callback : 1
+RESERVED:EXPRESSION:REMOVED:global:null : 1
+RESERVED:METHOD_CALL:INSERTED:global:arguments : 1
+RESERVED:METHOD_CALL:INSERTED:global:eval : 1
+RESERVED:METHOD_CALL:INSERTED:global:import : 1
+RESERVED:METHOD_CALL:INSERTED:global:long : 1
+RESERVED:METHOD_CALL:INSERTED:global:static : 1
+RESERVED:METHOD_CALL:REMOVED:global:arguments : 1
+RESERVED:METHOD_CALL:REMOVED:global:catch : 1
+RESERVED:METHOD_CALL:REMOVED:global:import : 1
+RESERVED:METHOD_CALL:REMOVED:global:instanceof : 1
+RESERVED:METHOD_CALL:UPDATED:global:static : 1
+RESERVED:PARAMETER_DECLARATION:UPDATED:global:callback : 1
+RESERVED:VARIABLE_DECLARATION:INSERTED:global:static : 1
+RESERVED:VARIABLE_DECLARATION:REMOVED:global:callback : 1
+RESERVED:VARIABLE_DECLARATION:REMOVED:global:static : 1
+1         {RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 1, Instances = 139, Complexity = 1, BasicChanges = 1, ProjectCount = 9
+2         {RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 20, Instances = 43, Complexity = 2, BasicChanges = 1, ProjectCount = 7
+3         {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0}: ClusterID = 9, Instances = 35, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+4         {RESERVED:METHOD_CALL:INSERTED:global:this:1.0}: ClusterID = 29, Instances = 30, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+5         {FIELD:ASSIGNMENT_LHS:INSERTED:global:prototype:1.0}: ClusterID = 26, Instances = 30, Complexity = 4, BasicChanges = 1, ProjectCount = 6
+6         {RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 12, Instances = 28, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+7         {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 2, Instances = 26, Complexity = 2, BasicChanges = 2, ProjectCount = 7
+8         {RESERVED:CONDITION:INSERTED:global:sheq:1.0}: ClusterID = 11, Instances = 23, Complexity = 1, BasicChanges = 1, ProjectCount = 8
+9         {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 5, Instances = 23, Complexity = 1, BasicChanges = 2, ProjectCount = 7
+10        {RESERVED:ASSIGNMENT_LHS:INSERTED:global:this:1.0}: ClusterID = 13, Instances = 22, Complexity = 2, BasicChanges = 1, ProjectCount = 7
+11        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 16, Instances = 17, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+12        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 30, Instances = 16, Complexity = 1, BasicChanges = 2, ProjectCount = 6
+13        {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 10, Instances = 16, Complexity = 3, BasicChanges = 2, ProjectCount = 6
+14        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:false:1.0}: ClusterID = 7, Instances = 15, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+15        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:true:1.0}: ClusterID = 19, Instances = 14, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+16        {METHOD:METHOD_CALL:REMOVED:global:forEach:1.0 METHOD:METHOD_CALL:INSERTED:global:forEach:1.0}: ClusterID = 35, Instances = 13, Complexity = 2, BasicChanges = 2, ProjectCount = 2
+17        {METHOD:METHOD_CALL:INSERTED:global:replace:1.0}: ClusterID = 27, Instances = 13, Complexity = 1, BasicChanges = 1, ProjectCount = 4
+18        {METHOD:METHOD_CALL:INSERTED:global:exec:1.0}: ClusterID = 0, Instances = 11, Complexity = 1, BasicChanges = 1, ProjectCount = 1
+19        {METHOD:METHOD_CALL:INSERTED:global:toString:1.0}: ClusterID = 47, Instances = 9, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+20        {RESERVED:STATEMENT:INSERTED:global:try:1.0 RESERVED:EXCEPTION_CATCH:INSERTED:global:error:1.0}: ClusterID = 42, Instances = 9, Complexity = 2, BasicChanges = 2, ProjectCount = 3
+21        {RESERVED:METHOD_CALL:REMOVED:global:this:1.0}: ClusterID = 14, Instances = 9, Complexity = 3, BasicChanges = 1, ProjectCount = 3
+22        {RESERVED:CONDITION:REMOVED:global:falsey:2.0}: ClusterID = 22, Instances = 8, Complexity = 2, BasicChanges = 1, ProjectCount = 6
+23        {RESERVED:CONDITION:REMOVED:global:sheq:1.0}: ClusterID = 18, Instances = 8, Complexity = 1, BasicChanges = 1, ProjectCount = 6
+24        {RESERVED:ASSIGNMENT_LHS:REMOVED:global:this:1.0}: ClusterID = 15, Instances = 8, Complexity = 1, BasicChanges = 1, ProjectCount = 4
+25        {CLASS:METHOD_CALL:INSERTED:global:Array:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 6, Instances = 8, Complexity = 1, BasicChanges = 2, ProjectCount = 3
+26        {RESERVED:CONDITION:INSERTED:global:eq:1.0}: ClusterID = 48, Instances = 7, Complexity = 2, BasicChanges = 1, ProjectCount = 2
+27        {RESERVED:CONDITION:INSERTED:global:undefined:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 36, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+28        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0}: ClusterID = 33, Instances = 7, Complexity = 2, BasicChanges = 2, ProjectCount = 6
+29        {RESERVED:CONDITION:INSERTED:global:falsey:3.0}: ClusterID = 32, Instances = 7, Complexity = 4, BasicChanges = 1, ProjectCount = 5
+30        {RESERVED:ASSIGNMENT_RHS:INSERTED:global:true:2.0}: ClusterID = 28, Instances = 7, Complexity = 1, BasicChanges = 1, ProjectCount = 3
+31        {RESERVED:CONDITION:INSERTED:global:null:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 24, Instances = 7, Complexity = 1, BasicChanges = 2, ProjectCount = 2
+32        {RESERVED:CONDITION:INSERTED:global:sheq:1.0 RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0}: ClusterID = 49, Instances = 6, Complexity = 3, BasicChanges = 3, ProjectCount = 2
+33        {RESERVED:CONDITION:INSERTED:global:falsey:2.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0}: ClusterID = 44, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+34        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:return:1.0}: ClusterID = 43, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+35        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:this:1.0 RESERVED:STATEMENT:REMOVED:global:var:1.0}: ClusterID = 41, Instances = 6, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+36        {RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:null:1.0 RESERVED:CONDITION:INSERTED:global:typeof:1.0}: ClusterID = 40, Instances = 6, Complexity = 1, BasicChanges = 3, ProjectCount = 3
+37        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:REMOVED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 21, Instances = 6, Complexity = 2, BasicChanges = 3, ProjectCount = 3
+38        {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:STATEMENT:UPDATED:global:var:1.0}: ClusterID = 3, Instances = 6, Complexity = 4, BasicChanges = 3, ProjectCount = 4
+39        {METHOD:METHOD_CALL:INSERTED:global:trim:1.0}: ClusterID = 46, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 2
+40        {RESERVED:CONDITION:INSERTED:global:eq:1.0 RESERVED:CONDITION:REMOVED:global:sheq:1.0}: ClusterID = 45, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 1
+41        {RESERVED:ARGUMENT:INSERTED:global:error:1.0}: ClusterID = 39, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 5
+42        {RESERVED:STATEMENT:INSERTED:global:return:1.0 RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 38, Instances = 5, Complexity = 3, BasicChanges = 2, ProjectCount = 4
+43        {RESERVED:ARGUMENT:INSERTED:global:this:1.0}: ClusterID = 37, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 2
+44        {RESERVED:STATEMENT:INSERTED:global:var:1.0 RESERVED:CONDITION:INSERTED:global:falsey:2.0}: ClusterID = 34, Instances = 5, Complexity = 3, BasicChanges = 2, ProjectCount = 4
+45        {FIELD:CONDITION:INSERTED:global:length:1.0}: ClusterID = 31, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 3
+46        {RESERVED:ASSIGNMENT_RHS:REMOVED:global:false:1.0}: ClusterID = 25, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 3
+47        {RESERVED:STATEMENT:UPDATED:global:var:1.0 METHOD:METHOD_CALL:INSERTED:global:replace:1.0}: ClusterID = 23, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 4
+48        {RESERVED:CONDITION:INSERTED:global:falsey:1.0 RESERVED:CONDITION:INSERTED:global:error:1.0}: ClusterID = 17, Instances = 5, Complexity = 1, BasicChanges = 2, ProjectCount = 3
+49        {RESERVED:METHOD_CALL:INSERTED:global:for:1.0}: ClusterID = 8, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 1
+50        {RESERVED:ARGUMENT:INSERTED:global:true:1.0}: ClusterID = 4, Instances = 5, Complexity = 1, BasicChanges = 1, ProjectCount = 4
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.548 s
+[INFO] Finished at: 2019-06-07T03:59:51+00:00
+[INFO] Final Memory: 23M/1319M
+[INFO] ------------------------------------------------------------------------

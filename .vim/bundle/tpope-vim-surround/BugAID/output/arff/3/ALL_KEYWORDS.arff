@@ -1,0 +1,76 @@
+@relation DataSet-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E.*UNCHANGED.*-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E(.*:global:test)
+
+@attribute ID numeric
+@attribute ProjectID string
+@attribute BugFixingCommit string
+@attribute CommitURL string
+@attribute BuggyCommitID string
+@attribute RepairedCommitID string
+@attribute Class string
+@attribute Method string
+@attribute Cluster string
+@attribute ModifiedStatementCount numeric
+@attribute CLASS:METHOD_CALL:INSERTED:global:Array numeric
+@attribute RESERVED:CONDITION:INSERTED:global:falsey numeric
+@attribute RESERVED:CONDITION:UPDATED:global:falsey numeric
+@attribute METHOD:METHOD_CALL:INSERTED:global:replace numeric
+@attribute RESERVED:CONDITION:REMOVED:global:typeof numeric
+@attribute RESERVED:METHOD_CALL:INSERTED:global:catch numeric
+@attribute METHOD:METHOD_CALL:INSERTED:global:pop numeric
+@attribute RESERVED:ASSIGNMENT_RHS:INSERTED:global:false numeric
+@attribute RESERVED:CONDITION:INSERTED:global:sheq numeric
+@attribute RESERVED:CONDITION:UPDATED:global:sheq numeric
+@attribute METHOD:METHOD_CALL:INSERTED:global:call numeric
+@attribute RESERVED:ASSIGNMENT_RHS:REMOVED:global:true numeric
+@attribute RESERVED:ASSIGNMENT_RHS:INSERTED:global:true numeric
+@attribute RESERVED:ARGUMENT:REMOVED:global:true numeric
+@attribute RESERVED:ARGUMENT:REMOVED:global:error numeric
+@attribute RESERVED:ARGUMENT:INSERTED:global:error numeric
+@attribute RESERVED:STATEMENT:INSERTED:global:new numeric
+@attribute RESERVED:STATEMENT:UPDATED:global:new numeric
+@attribute RESERVED:ASSIGNMENT_LHS:INSERTED:global:callback numeric
+@attribute RESERVED:ARGUMENT:REMOVED:global:this numeric
+@attribute RESERVED:ARGUMENT:INSERTED:global:this numeric
+@attribute RESERVED:CONDITION:REMOVED:global:this numeric
+@attribute RESERVED:ASSIGNMENT_LHS:INSERTED:global:this numeric
+@attribute RESERVED:STATEMENT:INSERTED:global:var numeric
+@attribute RESERVED:STATEMENT:UPDATED:global:var numeric
+@attribute RESERVED:STATEMENT:REMOVED:global:var numeric
+@attribute RESERVED:STATEMENT:UPDATED:global:return numeric
+@attribute RESERVED:STATEMENT:INSERTED:global:return numeric
+
+@data
+8,BUG_FIX,hexo,https://github.com/BugsJS/hexo/commit/1aa55df51a9861d45ea43c432d7d152709594003,7589ac75871521e9d73133f943c69582dc7373b2,1aa55df51a9861d45ea43c432d7d152709594003,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,BUG_FIX,hexo,https://github.com/BugsJS/hexo/commit/fbdee9043655a89fe0284f61cbaae88fd9a783e9,ed1fb58ea4769280cbfa9fc42edd917892edb9fc,fbdee9043655a89fe0284f61cbaae88fd9a783e9,'\'ClassNA\'','\'MethodNA\'','?',0.6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,1,0,0,0
+30,BUG_FIX,express,https://github.com/BugsJS/express/commit/2e1284beb6210444932d050b9d31d3908afb7591,999546dfdeb874c20b360ad58346ed07917f3ac0,2e1284beb6210444932d050b9d31d3908afb7591,'\'ClassNA\'','\'MethodNA\'',cluster0,0.4,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+81,BUG_FIX,hexo,https://github.com/BugsJS/hexo/commit/343cd322092d7b9bc6f6a24935df169bec3ee15e,7c7674ef214ae4217991b2dce13421e057721133,343cd322092d7b9bc6f6a24935df169bec3ee15e,'\'ClassNA\'','\'MethodNA\'','?',1.2,0,1,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0
+88,BUG_FIX,express,https://github.com/BugsJS/express/commit/a887e6a8813ade540ea3738db642e2d9a04fe3d6,69290cad6fc66154181650d4eedd10d487488ad5,a887e6a8813ade540ea3738db642e2d9a04fe3d6,'\'ClassNA\'','\'MethodNA\'',cluster0,0.6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+90,BUG_FIX,bower,https://github.com/BugsJS/bower/commit/deb39b8f346b436ed87dc841e862bd02ff059c9c,197b41d97ac4425978c7b91ad01086d8264785f0,deb39b8f346b436ed87dc841e862bd02ff059c9c,'\'ClassNA\'','\'MethodNA\'',cluster0,0.8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/34dc7d3a7d3aac1adf88ff020ee910e59bed5aea,b53929ad7a4cd0fcac41b36ae28ca44a2d2e930c,34dc7d3a7d3aac1adf88ff020ee910e59bed5aea,'\'ClassNA\'','\'MethodNA\'',cluster0,0.4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+100,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/305df2cafd25421042a74bf076f6e24f58b75c6f,79bc193b02755424000b26ac9779d4c8716ccecc,305df2cafd25421042a74bf076f6e24f58b75c6f,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+109,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/2080221e6bac3ef6dbff0e4aab7784385034d227,47066ea538b89627d4a65d061f16d4d2dd0037c8,2080221e6bac3ef6dbff0e4aab7784385034d227,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+111,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/cb2aafb3588904b2636e90521179b476301b031c,819763225897add01677517fbe0b4a555ee1f613,cb2aafb3588904b2636e90521179b476301b031c,'\'ClassNA\'','\'MethodNA\'','?',1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+113,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/892fa8945f96a852020ffedf667225f896e2c760,184f12e415fa970b3d14b70a41e2336d1fa73eb4,892fa8945f96a852020ffedf667225f896e2c760,'\'ClassNA\'','\'MethodNA\'','?',1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,3,0
+119,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/31eb2c2c3ca1663eff94f0398768a9b582332a93,85328f3e124c0a5875155885af434021ef3a20ec,31eb2c2c3ca1663eff94f0398768a9b582332a93,'\'ClassNA\'','\'MethodNA\'','?',1.2,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+145,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/438eb8ddbc0b82cd5ab299f6f27f5ae3cc29a20f,4858f39e121348764b094c8966579f5d05f3defc,438eb8ddbc0b82cd5ab299f6f27f5ae3cc29a20f,'\'ClassNA\'','\'MethodNA\'','?',0.2,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+146,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/dde1da4c78470fec3565920df418a3786fb57797,6a272aa5763eb0c728b76adc3b12bb12abc1aaca,dde1da4c78470fec3565920df418a3786fb57797,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+153,BUG_FIX,node_redis,https://github.com/BugsJS/node_redis/commit/de0a9628aabb9daecdccc898d10b375ab1b98566,ed57f440c792e0d3fe7151358596b76a0f659751,de0a9628aabb9daecdccc898d10b375ab1b98566,'\'ClassNA\'','\'MethodNA\'','?',0.8,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+155,BUG_FIX,pencilblue,https://github.com/BugsJS/pencilblue/commit/299920576aa56bfb0fb753944aaaa5cc25a4ee6b,23ff1238366aca0caa23ff8861920ef0d14e0c3d,299920576aa56bfb0fb753944aaaa5cc25a4ee6b,'\'ClassNA\'','\'MethodNA\'','?',0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,1,0,0,0
+201,BUG_FIX,hexo,https://github.com/BugsJS/hexo/commit/1aa55df51a9861d45ea43c432d7d152709594003,7589ac75871521e9d73133f943c69582dc7373b2,1aa55df51a9861d45ea43c432d7d152709594003,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+215,BUG_FIX,hexo,https://github.com/BugsJS/hexo/commit/1aa55df51a9861d45ea43c432d7d152709594003,7589ac75871521e9d73133f943c69582dc7373b2,1aa55df51a9861d45ea43c432d7d152709594003,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+227,BUG_FIX,hexo,https://github.com/BugsJS/hexo/commit/fbdee9043655a89fe0284f61cbaae88fd9a783e9,ed1fb58ea4769280cbfa9fc42edd917892edb9fc,fbdee9043655a89fe0284f61cbaae88fd9a783e9,'\'ClassNA\'','\'MethodNA\'','?',0.6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,1,0,0,0
+239,BUG_FIX,express,https://github.com/BugsJS/express/commit/2e1284beb6210444932d050b9d31d3908afb7591,999546dfdeb874c20b360ad58346ed07917f3ac0,2e1284beb6210444932d050b9d31d3908afb7591,'\'ClassNA\'','\'MethodNA\'',cluster0,0.4,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+288,BUG_FIX,hexo,https://github.com/BugsJS/hexo/commit/343cd322092d7b9bc6f6a24935df169bec3ee15e,7c7674ef214ae4217991b2dce13421e057721133,343cd322092d7b9bc6f6a24935df169bec3ee15e,'\'ClassNA\'','\'MethodNA\'','?',1.2,0,1,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0
+295,OTHER,express,https://github.com/BugsJS/express/commit/a887e6a8813ade540ea3738db642e2d9a04fe3d6,69290cad6fc66154181650d4eedd10d487488ad5,a887e6a8813ade540ea3738db642e2d9a04fe3d6,'\'ClassNA\'','\'MethodNA\'',cluster0,0.6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+297,OTHER,bower,https://github.com/BugsJS/bower/commit/deb39b8f346b436ed87dc841e862bd02ff059c9c,197b41d97ac4425978c7b91ad01086d8264785f0,deb39b8f346b436ed87dc841e862bd02ff059c9c,'\'ClassNA\'','\'MethodNA\'',cluster0,0.8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+299,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/34dc7d3a7d3aac1adf88ff020ee910e59bed5aea,b53929ad7a4cd0fcac41b36ae28ca44a2d2e930c,34dc7d3a7d3aac1adf88ff020ee910e59bed5aea,'\'ClassNA\'','\'MethodNA\'',cluster0,0.4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+307,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/305df2cafd25421042a74bf076f6e24f58b75c6f,79bc193b02755424000b26ac9779d4c8716ccecc,305df2cafd25421042a74bf076f6e24f58b75c6f,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+316,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/2080221e6bac3ef6dbff0e4aab7784385034d227,47066ea538b89627d4a65d061f16d4d2dd0037c8,2080221e6bac3ef6dbff0e4aab7784385034d227,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+318,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/cb2aafb3588904b2636e90521179b476301b031c,819763225897add01677517fbe0b4a555ee1f613,cb2aafb3588904b2636e90521179b476301b031c,'\'ClassNA\'','\'MethodNA\'','?',1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+320,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/892fa8945f96a852020ffedf667225f896e2c760,184f12e415fa970b3d14b70a41e2336d1fa73eb4,892fa8945f96a852020ffedf667225f896e2c760,'\'ClassNA\'','\'MethodNA\'','?',1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,3,0
+323,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/9dc5f8bc431a648ca0e03bc83fbefbf8d3a92c6f,fb841a799d83209a6e0d58722cf6239e4990b946,9dc5f8bc431a648ca0e03bc83fbefbf8d3a92c6f,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+326,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/31eb2c2c3ca1663eff94f0398768a9b582332a93,85328f3e124c0a5875155885af434021ef3a20ec,31eb2c2c3ca1663eff94f0398768a9b582332a93,'\'ClassNA\'','\'MethodNA\'','?',1.2,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+352,BUG_FIX,karma,https://github.com/BugsJS/karma/commit/438eb8ddbc0b82cd5ab299f6f27f5ae3cc29a20f,4858f39e121348764b094c8966579f5d05f3defc,438eb8ddbc0b82cd5ab299f6f27f5ae3cc29a20f,'\'ClassNA\'','\'MethodNA\'','?',0.2,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+353,OTHER,karma,https://github.com/BugsJS/karma/commit/dde1da4c78470fec3565920df418a3786fb57797,6a272aa5763eb0c728b76adc3b12bb12abc1aaca,dde1da4c78470fec3565920df418a3786fb57797,'\'ClassNA\'','\'MethodNA\'',cluster0,0.2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+360,BUG_FIX,node_redis,https://github.com/BugsJS/node_redis/commit/de0a9628aabb9daecdccc898d10b375ab1b98566,ed57f440c792e0d3fe7151358596b76a0f659751,de0a9628aabb9daecdccc898d10b375ab1b98566,'\'ClassNA\'','\'MethodNA\'','?',0.8,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+362,BUG_FIX,pencilblue,https://github.com/BugsJS/pencilblue/commit/299920576aa56bfb0fb753944aaaa5cc25a4ee6b,23ff1238366aca0caa23ff8861920ef0d14e0c3d,299920576aa56bfb0fb753944aaaa5cc25a4ee6b,'\'ClassNA\'','\'MethodNA\'','?',0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,1,0,0,0
