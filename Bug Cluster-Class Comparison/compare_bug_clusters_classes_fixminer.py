@@ -28,7 +28,7 @@ bug_patterns = {}
 for bug in d4_bugs:
         bug_patterns[bug['program'] + '-' + str(bug['bugId'])] = bug['repairPatterns']
 
-categories = ['Tokens','Shapes','Actions']
+categories = ['tokens','shapes','actions']
 categories_dict = {}
 
 for category in categories:
