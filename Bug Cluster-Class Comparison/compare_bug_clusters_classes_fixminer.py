@@ -3,6 +3,7 @@ import json
 import pickle
 import gzip
 import numpy as np
+import collections
 
 with open('defects4j-bugs.json','r',encoding='utf8') as read_file:
         d4_bugs = json.load(read_file)
@@ -27,7 +28,7 @@ bug_patterns = {}
 for bug in d4_bugs:
         bug_patterns[bug['program'] + '-' + str(bug['bugId'])] = bug['repairPatterns']
 
-categories = ['tokens','shapes','actions']
+categories = ['Tokens','Shapes','Actions']
 categories_dict = {}
 
 for category in categories:
@@ -86,9 +87,12 @@ for tree_type in categories_dict:
         # print('')
 
 for tree_type in membership:
+        membership[tree_type] = collections.OrderedDict(sorted(membership[tree_type].items(), key=lambda kv: kv[1]))
+
+for tree_type in membership:
         print('Tree',tree_type)
         for pattern in membership[tree_type]:
                 print('')
-                print('\tCluster Number',membership[tree_type][pattern][0],'Pattern',pattern,'Confidence',membership[tree_type][pattern][1])
+                print('\tCluster Number',membership[tree_type][pattern][0],'Pattern',pattern,'Precision',membership[tree_type][pattern][1])
         print('')
         print('')
