@@ -16,7 +16,7 @@ public class change {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/*String path = "C:/Users/rupa/Documents/Rupa/UCLA/Q3/CS230/Project/dataset/input/Defects4J/";
+		String path = "C:/Users/rupa/Documents/Rupa/UCLA/Q3/CS230/Project/dataset/input/Defects4J/";
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();
 		
@@ -31,7 +31,7 @@ public class change {
 					System.out.println(chngFile.getName());
 					File left = new File(listOfFiles[i] + "/prevFiles/prev_" +chngFile.getName());
 					File right = new File(listOfFiles[i] + "/revFiles/" +chngFile.getName());
-					FileDistiller distiller = ChangeDistiller.createFileDistiller(Language.JAVA);
+					/*FileDistiller distiller = ChangeDistiller.createFileDistiller(Language.JAVA);
 					try {
 					    distiller.extractClassifiedSourceCodeChanges(left, right);
 					} catch(Exception e) {
@@ -48,10 +48,10 @@ public class change {
 					    	System.out.println(change.getLabel());
 					    	System.out.println(change);
 					    }
-					}
+					}*/
 				}
 			}
-		}*/
+		}
 		/*for (int i = 0; i < listOfFiles.length; i++) {
 		  if (listOfFiles[i].isFile()) {
 		    System.out.println("File " + listOfFiles[i].getName());
@@ -60,7 +60,7 @@ public class change {
 		  }
 		}*/
 		//C:\Users\rupa\Documents\Rupa\UCLA\Q3\CS230\Project\dataset\input\Defects4J\
-		String path = "C:/Users/rupa/Documents/Rupa/UCLA/Q3/CS230/Project/dataset/input/Defects4J/closure-compiler.git/";
+		/*String path = "C:/Users/rupa/Documents/Rupa/UCLA/Q3/CS230/Project/dataset/input/Defects4J/closure-compiler.git/";
 		File left = new File(path + "prevFiles/prev_00b151_974027_src#com#google#javascript#jscomp#FunctionTypeBuilder.java");
 		File right = new File(path + "revFiles/00b151_974027_src#com#google#javascript#jscomp#FunctionTypeBuilder.java");
 
@@ -71,7 +71,7 @@ public class change {
 		    /* An exception most likely indicates a bug in ChangeDistiller. Please file a
 		       bug report at https://bitbucket.org/sealuzh/tools-changedistiller/issues and
 		       attach the full stack trace along with the two files that you tried to distill. */
-		    System.err.println("Warning: error while change distilling. " + e.getMessage());
+		   /* System.err.println("Warning: error while change distilling. " + e.getMessage());
 		}
 
 		List<SourceCodeChange> changes = distiller.getSourceCodeChanges();
@@ -89,7 +89,7 @@ public class change {
 		    	//System.out.println();
 		    	
 		    }
-		}
+		}*/
 	}
 
 }
