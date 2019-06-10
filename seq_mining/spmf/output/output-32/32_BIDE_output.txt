@@ -1,0 +1,1619 @@
+public
+-1
+boolean
+-1
+equals(type
+-1
+object)
+-1
+{
+-1
+if(!(condition))
+-1
+{
+-1
+return
+-1
+false;
+-1
+}
+-1
+---return
+-1
+---super.equals(object);
+-1
+++++
+-1
++++type
+-1
++++object
+-1
++++=
+-1
++++(type)object;
+-1
+++++
+-1
++++int
+-1
++++primitive
+-1
++++=
+-1
++++size();
+-1
+++++
+-1
++++for(+++loop)
+-1
++++{
+-1
+++++
+-1
++++if(condition)
+-1
++++{
+-1
+++++
+-1
++++return
+-1
++++false;
+-1
+++++
+-1
++++}
+-1
+++++
+-1
++++}
+-1
+++++
+-1
++++return
+-1
++++true;
+-1
+}
+-1
+-2
+public
+-1
+method()
+-1
+{
+-1
+public
+-1
+String
+-1
+method(parameters)
+-1
+{
+-1
+---return
+-1
+---constant
+-1
+---+
+-1
+---object
+-1
+++++
+-1
++++return
+-1
++++constant
+-1
+++++
+-1
++++type.method(callparameters)
+-1
++
+-1
+constant;
+-1
+}
+-1
+-2
+public
+-1
+type
+-1
+method(parameters)
+-1
+primitive
+-1
+=
+-1
+-(primitive
+-1
++
+-1
+1);
+-1
+}
+-1
+---if(condition)
+-1
+---{
+-1
++++if(condition)
+-1
++++{
+-1
+primitive
+-1
+=
+-1
+true;
+-1
+}
+-1
+if(condition)
+-1
+{
+-1
+-2
+---this(object,
+-1
+---enum.value,
+-1
+---type.method());
+-1
++++this(object,
+-1
++++object,
+-1
++++type.method());
+-1
+}
+-1
+-2
+private
+-1
+void
+-1
+method(parameters)
+-1
+{
+-1
+}
+-1
+if(condition)
+-1
+{
+-1
+---long
+-1
+---primitive
+-1
+---=
+-1
+---method(callparameters).method().method()
+-1
++++long
+-1
++++primitive
+-1
++++=
+-1
++++method(callparameters).method().method()
+-1
+.method();
+-1
+---long
+-1
+---primitive
+-1
+---=
+-1
+---method(callparameters).method().method()
+-1
+++++
+-1
++++long
+-1
++++e
+-1
++++=
+-1
++++method(callparameters).method().method()
+-1
+.method();
+-1
+long
+-1
+primitive
+-1
+=
+-1
+primitive
+-1
++
+-1
+(primitive
+-1
+-
+-1
+primitive)
+-1
+/
+-1
+constant;
+-1
+if(condition)
+-1
+{
+-1
+-2
+public
+-1
+type
+-1
+method(parameters)
+-1
+{
+-1
+if(NULL_CHECK)
+-1
+{
+-1
+throw
+-1
+new
+-1
+exception(object);
+-1
+}
+-1
++++if(condition)
+-1
++++{
+-1
++++method(callparameters);
+-1
++++return
+-1
++++null;
+-1
+++++
+-1
++++}
+-1
+type
+-1
+object
+-1
+=
+-1
+null;
+-1
+int
+-1
+primitive
+-1
+=
+-1
+indexOf(object);
+-1
+---if
+-1
+---(primitive
+-1
+--->=
+-1
+---constant
+-1
+---&&
+-1
+---!object.primitive)
+-1
+---{
+-1
+++++
+-1
++++if(condition)
+-1
++++{
+-1
+type
+-1
+object
+-1
+=
+-1
+(type)object.object.get(primitive);
+-1
+try
+-1
+{
+-1
+object
+-1
+=
+-1
+(type)object.clone();
+-1
+-2
+public
+-1
+type
+-1
+method(parameters)
+-1
+throw
+-1
+new
+-1
+exception(object);
+-1
+}
+-1
+type
+-1
+object
+-1
+=
+-1
+(type)
+-1
+super.clone();
+-1
+++++
+-1
++++object.primitive
+-1
++++=
+-1
++++Double.NaN;
+-1
+++++
+-1
++++object.primitive
+-1
++++=
+-1
++++Double.NaN;
+-1
+object.primitive
+-1
+=
+-1
+new
+-1
+java.util.ArrayList();
+-1
+if(condition)
+-1
+{
+-1
+for(loop)
+-1
+{
+-1
+-2
+public
+-1
+type
+-1
+method(parameters)
+-1
+{
+-1
+}
+-1
+}
+-1
+++++
+-1
++++if(NULL_CHECK)
+-1
++++{
+-1
+type
+-1
+object
+-1
+=
+-1
+object.method();
+-1
+Iterator
+-1
+object
+-1
+=
+-1
+object.iterator();
+-1
+while
+-1
+(object.hasNext())
+-1
+{-1
+public
+-1
+type
+-1
+method(parameters)
+-1
+{
+-1
+object.add(a);
+-1
+}
+-1
+}
+-1
+++++
+-1
++++}
+-1
+}
+-1
+}
+-1
+-2
+public
+-1
+static
+-1
+type
+-1
+method(parameters)
+-1
+{
+-1
+for(loop)
+-1
+{
+-1
+int
+-1
+primitive
+-1
+=
+-1
+object.method(callparameter);
+-1
+for(loop)
+-1
+{
+-1
++++double
+-1
++++primitive
+-1
++++=
+-1
++++object.method(callparameters,
+-1
++++callparameters);
+-1
++++if(NOT_A_NUMBER
+)-1
++++{
+-1
++++primitive
+-1
++++=
+-1
++++Math.min(callparameters,
+-1
++++callparameters);
+-1
++++primitive
+-1
++++=
+-1
++++Math.max(callparameters,
+-1
++++callparameters);
+-1
++++}
+-1
+if(NOT_A_NUMBER))
+-1
+{
+-1
+primitive
+-1
+=
+-1
+Math.min(callparameters);
+-1
++++primitive
+-1
++++=
+-1
++++Math.max(callparameters,
+-1
++++callparameters);
+-1
+}
+-1
+if(NOT_A_NUMBER)
+-1
+{
+-1
++++primitive
+-1
++++=
+-1
++++Math.min(callparameters,
+-1
++++callparameters);
+-1
+primitive
+-1
+=
+-1
+Math.max(callparameters);
+-1
+}
+-1
+}
+-1
+-2
+public
+-1
+static
+-1
+type
+-1
+method(parameters)
+-1
+{
+-1
+for(loop)
+-1
+{
+-1
+int
+-1
+primitive
+-1
+=
+-1
+object.method(callparameters);
+-1
+for(loop)
+-1
+{
+-1
++++double
+-1
++++primitive
+-1
++++=
+-1
++++object.method(callparameters,
+-1
++++callparameters);
+-1
+double
+-1
+primitive
+-1
+=
+-1
+object.method(callparameters);
+-1
+double
+-1
+primitive
+-1
+=
+-1
+object.method(callparameters);
+-1
++++if(NOT_A_NUMBER))
+-1
++++{
+-1
++++primitive
+-1
++++=
+-1
++++Math.min(callparameters,
+-1
++++callparameters);
+-1
++++primitive
+-1
++++=
+-1
++++Math.max(callparameters,
+-1
++++callparameters);
+-1
++++}
+-1
+if(NOT_A_NUMBER)
+-1
+{
+-1
+primitive
+-1
+=
+-1
+Math.min(callparameters);
+-1
++++maximum
+-1
++++=
+-1
++++Math.max(callparameters,
+-1
++++callparameters);
+-1
+}
+-1
+if(NOT_A_NUMBER)
+-1
+{
+-1
++++primitive
+-1
++++=
+-1
++++Math.min(callparameters,
+-1
++++callparameters);
+-1
+primitive
+-1
+=
+-1
+Math.max(callparameters);
+-1
+}
+-1
+}
+-1
+-2
+---if(NULL_CHECK)
+-1
+---{
+-1
++++if(NULL_CHECK)
+-1
++++{
+-1
+return
+-1
+primitive;
+-1
+}
+-1
+-2
+public
+-1
+method(parameters)
+-1
+{
+-1
+super();
+-1
+---object.object
+-1
+---=
+-1
+---object;
+-1
++++method(callparameters);
+-1
+type
+-1
+object
+-1
+=
+-1
+new
+-1
+type();
+-1
+object.object
+-1
+=
+-1
+new
+-1
+type(object);
+-1
+object.object.method();
+-1
+-2
+public
+-1
+static
+-1
+boolean
+-1
+equal(parameters)
+-1
+{
+-1
+return
+-1
+false;
+-1
+}
+-1
+Iterator
+-1
+iterator
+-1
+=
+-1
+object.getIterator(callparameters);
+-1
+---Iterator
+-1
+---Iterator
+-1
+---=
+-1
+---object.getIterator(callparameters);
+-1
++++Iterator
+-1
++++iterator
+-1
++++=
+-1
++++pbject.getIterator(callparameters);
+-1
+double[]
+-1
+primitive_array
+-1
+=
+-1
+new
+-1
+type[constant];
+-1
+double[]
+-1
+primitive_array
+-1
+=
+-1
+new
+-1
+type[constant];
+-1
+boolean
+-1
+done
+-1
+=
+-1
+iterator1.isDone()
+-1
+&&
+-1
+iterator2.isDone();
+-1
+-2
+protected
+-1
+type
+-1
+method(parameters)
+-1
+{
+-1
+h[3]
+-1
+=
+-1
+h[2];
+-1
+if(NULL_CHECK)
+-1
+{
+-1
+type
+-1
+object
+-1
+=
+-1
+new
+-1
+type(callparameters,
+---callparameters,
+-1
++++callparameters);
+-1
+-2
+---if(condition)
+-1
+---{
+-1
+method();
+-1
+---}
+-1
+}
+-1
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+============  Database ==========
+	at java.lang.String.codePointAt(Unknown Source)
+	at ca.pfv.spmf.input.sequence_database_list_strings.SequenceDatabase.addSequence(SequenceDatabase.java:89)
+	at ca.pfv.spmf.input.sequence_database_list_strings.SequenceDatabase.loadFile(SequenceDatabase.java:62)
+	at ca.pfv.spmf.test.MainTestBIDEPlus_saveToFile_withStrings.main(MainTestBIDEPlus_saveToFile_withStrings.java:19)
+0:  (public )(boolean )(equals(type )(object) )({ )(if(!(condition)) )({ )(return )(false; )(} )(---return )(---super.equals(object); )(++++ )(+++type )(+++object )(+++= )(+++(type)object; )(++++ )(+++int )(+++primitive )(+++= )(+++size(); )(++++ )(+++for(+++loop) )(+++{ )(++++ )(+++if(condition) )(+++{ )(++++ )(+++return )(+++false; )(++++ )(+++} )(++++ )(+++} )(++++ )(+++return )(+++true; )(} )    
+1:  (public )(method() )({ )(public )(String )(method(parameters) )({ )(---return )(---constant )(---+ )(---object )(++++ )(+++return )(+++constant )(++++ )(+++type.method(callparameters) )(+ )(constant; )(} )    
+2:  (public )(type )(method(parameters) )(primitive )(= )(-(primitive )(+ )(1); )(} )(---if(condition) )(---{ )(+++if(condition) )(+++{ )(primitive )(= )(true; )(} )(if(condition) )({ )    
+3:  (---this(object, )(---enum.value, )(---type.method()); )(+++this(object, )(+++object, )(+++type.method()); )(} )    
+4:  (private )(void )(method(parameters) )({ )(} )(if(condition) )({ )(---long )(---primitive )(---= )(---method(callparameters).method().method() )(+++long )(+++primitive )(+++= )(+++method(callparameters).method().method() )(.method(); )(---long )(---primitive )(---= )(---method(callparameters).method().method() )(++++ )(+++long )(+++e )(+++= )(+++method(callparameters).method().method() )(.method(); )(long )(primitive )(= )(primitive )(+ )((primitive )(- )(primitive) )(/ )(constant; )(if(condition) )({ )    
+5:  (public )(type )(method(parameters) )({ )(if(NULL_CHECK) )({ )(throw )(new )(exception(object); )(} )(+++if(condition) )(+++{ )(+++method(callparameters); )(+++return )(+++null; )(++++ )(+++} )(type )(object )(= )(null; )(int )(primitive )(= )(indexOf(object); )(---if )(---(primitive )(--->= )(---constant )(---&& )(---!object.primitive) )(---{ )(++++ )(+++if(condition) )(+++{ )(type )(object )(= )((type)object.object.get(primitive); )(try )({ )(object )(= )((type)object.clone(); )    
+6:  (public )(type )(method(parameters) )(throw )(new )(exception(object); )(} )(type )(object )(= )((type) )(super.clone(); )(++++ )(+++object.primitive )(+++= )(+++Double.NaN; )(++++ )(+++object.primitive )(+++= )(+++Double.NaN; )(object.primitive )(= )(new )(java.util.ArrayList(); )(if(condition) )({ )(for(loop) )({ )    
+7:  (public )(type )(method(parameters) )({ )(} )(} )(++++ )(+++if(NULL_CHECK) )(+++{ )(type )(object )(= )(object.method(); )(Iterator )(object )(= )(object.iterator(); )(while )((object.hasNext()) )(public {-1 )(type )(method(parameters) )({ )(object.add(a); )(} )(} )(++++ )(+++} )(} )(} )    
+8:  (public )(static )(type )(method(parameters) )({ )(for(loop) )({ )(int )(primitive )(= )(object.method(callparameter); )(for(loop) )({ )(+++double )(+++primitive )(+++= )(+++object.method(callparameters, )(+++callparameters); )(+++if(NOT_A_NUMBER )-1 +++{ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(+++primitive )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(+++} )(if(NOT_A_NUMBER)) )({ )(primitive )(= )(Math.min(callparameters); )(+++primitive )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(} )(if(NOT_A_NUMBER) )({ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(primitive )(= )(Math.max(callparameters); )(} )(} )    
+9:  (public )(static )(type )(method(parameters) )({ )(for(loop) )({ )(int )(primitive )(= )(object.method(callparameters); )(for(loop) )({ )(+++double )(+++primitive )(+++= )(+++object.method(callparameters, )(+++callparameters); )(double )(primitive )(= )(object.method(callparameters); )(double )(primitive )(= )(object.method(callparameters); )(+++if(NOT_A_NUMBER)) )(+++{ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(+++primitive )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(+++} )(if(NOT_A_NUMBER) )({ )(primitive )(= )(Math.min(callparameters); )(+++maximum )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(} )(if(NOT_A_NUMBER) )({ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(primitive )(= )(Math.max(callparameters); )(} )(} )    
+10:  (---if(NULL_CHECK) )(---{ )(+++if(NULL_CHECK) )(+++{ )(return )(primitive; )(} )    
+11:  (public )(method(parameters) )({ )(super(); )(---object.object )(---= )(---object; )(+++method(callparameters); )(type )(object )(= )(new )(type(); )(object.object )(= )(new )(type(object); )(object.object.method(); )    
+12:  (public )(static )(boolean )(equal(parameters) )({ )(return )(false; )(} )(Iterator )(iterator )(= )(object.getIterator(callparameters); )(---Iterator )(---Iterator )(---= )(---object.getIterator(callparameters); )(+++Iterator )(+++iterator )(+++= )(+++pbject.getIterator(callparameters); )(double[] )(primitive_array )(= )(new )(type[constant]; )(double[] )(primitive_array )(= )(new )(type[constant]; )(boolean )(done )(= )(iterator1.isDone() )(&& )(iterator2.isDone(); )    
+13:  (protected )(type )(method(parameters) )({ )(h[3] )(= )(h[2]; )(if(NULL_CHECK) )({ )(type )(object )(= )(new )(type(callparameters, ---callparameters, )(+++callparameters); )    
+[public]
+[boolean]
+[equals(type]
+[object)]
+[{]
+[if(!(condition))]
+[{]
+[return]
+[false;]
+[}]
+[---return]
+[---super.equals(object);]
+[++++]
+[+++type]
+[+++object]
+[+++=]
+[+++(type)object;]
+[++++]
+[+++int]
+[+++primitive]
+[+++=]
+[+++size();]
+[++++]
+[+++for(+++loop)]
+[+++{]
+[++++]
+[+++if(condition)]
+[+++{]
+[++++]
+[+++return]
+[+++false;]
+[++++]
+[+++}]
+[++++]
+[+++}]
+[++++]
+[+++return]
+[+++true;]
+[}]
+(public )(boolean )({ )({ )(return )(false; )(} )(---return )(++++ )(+++= )(++++ )(+++primitive )(+++= )(++++ )(+++{ )(++++ )(+++if(condition) )(+++{ )(++++ )(+++return )(++++ )(+++} )(++++ )(+++} )(++++ )(+++return )(} )    
+[public]
+[method()]
+[{]
+[public]
+[String]
+[method(parameters)]
+[{]
+[---return]
+[---constant]
+[---+]
+[---object]
+[++++]
+[+++return]
+[+++constant]
+[++++]
+[+++type.method(callparameters)]
+[+]
+[constant;]
+[}]
+(public )({ )(public )(method(parameters) )({ )(---return )(---constant )(++++ )(+++return )(++++ )(+ )(constant; )(} )    
+[public]
+[type]
+[method(parameters)]
+[primitive]
+[=]
+[-(primitive]
+[+]
+[1);]
+[}]
+[---if(condition)]
+[---{]
+[+++if(condition)]
+[+++{]
+[primitive]
+[=]
+[true;]
+[}]
+[if(condition)]
+[{]
+(public )(type )(method(parameters) )(primitive )(= )(+ )(} )(---{ )(+++if(condition) )(+++{ )(primitive )(= )(} )(if(condition) )({ )    
+[---this(object,]
+[---enum.value,]
+[---type.method());]
+[+++this(object,]
+[+++object,]
+[+++type.method());]
+[}]
+(} )    
+[private]
+[void]
+[method(parameters)]
+[{]
+[}]
+[if(condition)]
+[{]
+[---long]
+[---primitive]
+[---=]
+[---method(callparameters).method().method()]
+[+++long]
+[+++primitive]
+[+++=]
+[+++method(callparameters).method().method()]
+[.method();]
+[---long]
+[---primitive]
+[---=]
+[---method(callparameters).method().method()]
+[++++]
+[+++long]
+[+++e]
+[+++=]
+[+++method(callparameters).method().method()]
+[.method();]
+[long]
+[primitive]
+[=]
+[primitive]
+[+]
+[(primitive]
+[-]
+[primitive)]
+[/]
+[constant;]
+[if(condition)]
+[{]
+(method(parameters) )({ )(} )(if(condition) )({ )(---= )(+++primitive )(+++= )(---= )(++++ )(+++= )(primitive )(= )(primitive )(+ )(constant; )(if(condition) )({ )    
+[public]
+[type]
+[method(parameters)]
+[{]
+[if(NULL_CHECK)]
+[{]
+[throw]
+[new]
+[exception(object);]
+[}]
+[+++if(condition)]
+[+++{]
+[+++method(callparameters);]
+[+++return]
+[+++null;]
+[++++]
+[+++}]
+[type]
+[object]
+[=]
+[null;]
+[int]
+[primitive]
+[=]
+[indexOf(object);]
+[---if]
+[---(primitive]
+[--->=]
+[---constant]
+[---&&]
+[---!object.primitive)]
+[---{]
+[++++]
+[+++if(condition)]
+[+++{]
+[type]
+[object]
+[=]
+[(type)object.object.get(primitive);]
+[try]
+[{]
+[object]
+[=]
+[(type)object.clone();]
+(public )(type )(method(parameters) )({ )(if(NULL_CHECK) )({ )(throw )(new )(exception(object); )(} )(+++if(condition) )(+++{ )(+++method(callparameters); )(+++return )(++++ )(+++} )(type )(object )(= )(int )(primitive )(= )(---constant )(---{ )(++++ )(+++if(condition) )(+++{ )(type )(object )(= )({ )(object )(= )    
+[public]
+[type]
+[method(parameters)]
+[throw]
+[new]
+[exception(object);]
+[}]
+[type]
+[object]
+[=]
+[(type)]
+[super.clone();]
+[++++]
+[+++object.primitive]
+[+++=]
+[+++Double.NaN;]
+[++++]
+[+++object.primitive]
+[+++=]
+[+++Double.NaN;]
+[object.primitive]
+[=]
+[new]
+[java.util.ArrayList();]
+[if(condition)]
+[{]
+[for(loop)]
+[{]
+(public )(type )(method(parameters) )(throw )(new )(exception(object); )(} )(type )(object )(= )(++++ )(+++= )(++++ )(+++= )(= )(new )(if(condition) )({ )(for(loop) )({ )    
+[public]
+[type]
+[method(parameters)]
+[{]
+[}]
+[}]
+[++++]
+[+++if(NULL_CHECK)]
+[+++{]
+[type]
+[object]
+[=]
+[object.method();]
+[Iterator]
+[object]
+[=]
+[object.iterator();]
+[while]
+[(object.hasNext())]
+[public, {-1]
+[type]
+[method(parameters)]
+[{]
+[object.add(a);]
+[}]
+[}]
+[++++]
+[+++}]
+[}]
+[}]
+(public )(type )(method(parameters) )({ )(} )(} )(++++ )(+++if(NULL_CHECK) )(+++{ )(type )(object )(= )(Iterator )(object )(= )(public )(type )(method(parameters) )({ )(} )(} )(++++ )(+++} )(} )(} )    
+[public]
+[static]
+[type]
+[method(parameters)]
+[{]
+[for(loop)]
+[{]
+[int]
+[primitive]
+[=]
+[object.method(callparameter);]
+[for(loop)]
+[{]
+[+++double]
+[+++primitive]
+[+++=]
+[+++object.method(callparameters,]
+[+++callparameters);]
+[+++if(NOT_A_NUMBER, )-1, +++{]
+[+++primitive]
+[+++=]
+[+++Math.min(callparameters,]
+[+++callparameters);]
+[+++primitive]
+[+++=]
+[+++Math.max(callparameters,]
+[+++callparameters);]
+[+++}]
+[if(NOT_A_NUMBER))]
+[{]
+[primitive]
+[=]
+[Math.min(callparameters);]
+[+++primitive]
+[+++=]
+[+++Math.max(callparameters,]
+[+++callparameters);]
+[}]
+[if(NOT_A_NUMBER)]
+[{]
+[+++primitive]
+[+++=]
+[+++Math.min(callparameters,]
+[+++callparameters);]
+[primitive]
+[=]
+[Math.max(callparameters);]
+[}]
+[}]
+(public )(static )(type )(method(parameters) )({ )(for(loop) )({ )(int )(primitive )(= )(for(loop) )({ )(+++double )(+++primitive )(+++= )(+++object.method(callparameters, )(+++callparameters); )(+++{ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(+++primitive )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(+++} )({ )(primitive )(= )(Math.min(callparameters); )(+++primitive )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(} )(if(NOT_A_NUMBER) )({ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(primitive )(= )(Math.max(callparameters); )(} )(} )    
+[public]
+[static]
+[type]
+[method(parameters)]
+[{]
+[for(loop)]
+[{]
+[int]
+[primitive]
+[=]
+[object.method(callparameters);]
+[for(loop)]
+[{]
+[+++double]
+[+++primitive]
+[+++=]
+[+++object.method(callparameters,]
+[+++callparameters);]
+[double]
+[primitive]
+[=]
+[object.method(callparameters);]
+[double]
+[primitive]
+[=]
+[object.method(callparameters);]
+[+++if(NOT_A_NUMBER))]
+[+++{]
+[+++primitive]
+[+++=]
+[+++Math.min(callparameters,]
+[+++callparameters);]
+[+++primitive]
+[+++=]
+[+++Math.max(callparameters,]
+[+++callparameters);]
+[+++}]
+[if(NOT_A_NUMBER)]
+[{]
+[primitive]
+[=]
+[Math.min(callparameters);]
+[+++maximum]
+[+++=]
+[+++Math.max(callparameters,]
+[+++callparameters);]
+[}]
+[if(NOT_A_NUMBER)]
+[{]
+[+++primitive]
+[+++=]
+[+++Math.min(callparameters,]
+[+++callparameters);]
+[primitive]
+[=]
+[Math.max(callparameters);]
+[}]
+[}]
+(public )(static )(type )(method(parameters) )({ )(for(loop) )({ )(int )(primitive )(= )(for(loop) )({ )(+++double )(+++primitive )(+++= )(+++object.method(callparameters, )(+++callparameters); )(primitive )(= )(primitive )(= )(+++{ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(+++primitive )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(+++} )(if(NOT_A_NUMBER) )({ )(primitive )(= )(Math.min(callparameters); )(+++= )(+++Math.max(callparameters, )(+++callparameters); )(} )(if(NOT_A_NUMBER) )({ )(+++primitive )(+++= )(+++Math.min(callparameters, )(+++callparameters); )(primitive )(= )(Math.max(callparameters); )(} )(} )    
+[---if(NULL_CHECK)]
+[---{]
+[+++if(NULL_CHECK)]
+[+++{]
+[return]
+[primitive;]
+[}]
+(---{ )(+++if(NULL_CHECK) )(+++{ )(return )(} )    
+[public]
+[method(parameters)]
+[{]
+[super();]
+[---object.object]
+[---=]
+[---object;]
+[+++method(callparameters);]
+[type]
+[object]
+[=]
+[new]
+[type();]
+[object.object]
+[=]
+[new]
+[type(object);]
+[object.object.method();]
+(public )(method(parameters) )({ )(---= )(+++method(callparameters); )(type )(object )(= )(new )(= )(new )    
+[public]
+[static]
+[boolean]
+[equal(parameters)]
+[{]
+[return]
+[false;]
+[}]
+[Iterator]
+[iterator]
+[=]
+[object.getIterator(callparameters);]
+[---Iterator]
+[---Iterator]
+[---=]
+[---object.getIterator(callparameters);]
+[+++Iterator]
+[+++iterator]
+[+++=]
+[+++pbject.getIterator(callparameters);]
+[double[]]
+[primitive_array]
+[=]
+[new]
+[type[constant];]
+[double[]]
+[primitive_array]
+[=]
+[new]
+[type[constant];]
+[boolean]
+[done]
+[=]
+[iterator1.isDone()]
+[&&]
+[iterator2.isDone();]
+(public )(static )(boolean )({ )(return )(false; )(} )(Iterator )(= )(---= )(+++= )(= )(new )(= )(new )(boolean )(= )    
+[protected]
+[type]
+[method(parameters)]
+[{]
+[h[3]]
+[=]
+[h[2];]
+[if(NULL_CHECK)]
+[{]
+[type]
+[object]
+[=]
+[new]
+[type(callparameters,, ---callparameters,]
+[+++callparameters);]
+(type )(method(parameters) )({ )(= )(if(NULL_CHECK) )({ )(type )(object )(= )(new )(+++callparameters); )    
+Appending::=+++{ -1 } -1  #SUP: 6
+(+++{ )  Sequence ID: 0 2 5 7 8 9 10     
+Appending::=+++{ -1  #SUP: 7
+(+++} )  Sequence ID: 0 5 7 8 9     
+Appending::=type -1 method(parameters) -1 type -1 object -1 = -1 new -1  #SUP: 2
+Appending::=type -1 method(parameters) -1 type -1 object -1 = -1  #SUP: 4
+Appending::=type -1 method(parameters) -1 new -1  #SUP: 3
+Appending::=type -1 method(parameters) -1 { -1 type -1 object -1 = -1  #SUP: 3
+Appending::=type -1 method(parameters) -1 { -1 if(NULL_CHECK) -1 { -1 new -1  #SUP: 2
+Appending::=type -1 method(parameters) -1 { -1 if(NULL_CHECK) -1 { -1 type -1 object -1 = -1  #SUP: 2
+Appending::=type -1 method(parameters) -1 { -1 { -1  #SUP: 6
+Appending::=type -1 method(parameters) -1 { -1 = -1 type -1 object -1 = -1  #SUP: 2
+Appending::=type -1 method(parameters) -1 { -1 = -1 type -1  #SUP: 3
+Appending::=type -1 method(parameters) -1 { -1 = -1 object -1 = -1  #SUP: 3
+Appending::=type -1 method(parameters) -1 { -1 = -1 { -1 object -1 = -1  #SUP: 2
+Appending::=type -1 method(parameters) -1 { -1 = -1 { -1 = -1 +++callparameters); -1  #SUP: 3
+Appending::=type -1 method(parameters) -1 { -1 = -1 { -1 = -1  #SUP: 4
+Appending::=type -1 method(parameters) -1 { -1 = -1 { -1  #SUP: 5
+Appending::=type -1 method(parameters) -1 { -1 = -1 = -1  #SUP: 5
+Appending::=type -1 method(parameters) -1 = -1 { -1  #SUP: 7
+Appending::=type -1 method(parameters) -1 = -1 = -1 new -1  #SUP: 2
+Appending::=type -1 method(parameters) -1 = -1 = -1  #SUP: 7
+Appending::=type -1 new -1  #SUP: 4
+Appending::=type -1 = -1 = -1 new -1  #SUP: 3
+Appending::=type -1 = -1 = -1  #SUP: 8
+(type )  Sequence ID: 2 5 6 7 8 9 11 13     
+(+++if(condition) )  Sequence ID: 0 2 5     
+Appending::=+++if(NULL_CHECK) -1 +++{ -1 } -1  #SUP: 2
+(+++if(NULL_CHECK) )  Sequence ID: 7 10     
+(Math.min(callparameters); )  Sequence ID: 8 9     
+(+ )  Sequence ID: 1 2 4     
+(for(loop) )  Sequence ID: 6 8 9     
+(+++method(callparameters); )  Sequence ID: 5 11     
+Appending::== -1 = -1 new -1  #SUP: 4
+Appending::== -1 = -1  #SUP: 9
+(= )  Sequence ID: 2 4 5 6 7 8 9 11 12 13     
+Appending::== -1  #SUP: 10
+(object )  Sequence ID: 5 6 7 11 13     
+(primitive )  Sequence ID: 2 4 5 8 9     
+(+++primitive )  Sequence ID: 0 4 8 9     
+(---= )  Sequence ID: 4 11 12     
+(exception(object); )  Sequence ID: 5 6     
+(if(NULL_CHECK) )  Sequence ID: 5 13     
+(throw )  Sequence ID: 5 6     
+(---constant )  Sequence ID: 1 5     
+Appending::={ -1 new -1  #SUP: 4
+Appending::={ -1 { -1 +++primitive -1 +++= -1 ++++ -1  #SUP: 2
+Appending::={ -1 { -1 +++primitive -1 +++= -1  #SUP: 4
+Appending::={ -1 { -1 ++++ -1 + -1 constant; -1  #SUP: 2
+Appending::={ -1 { -1 ++++ -1  #SUP: 5
+Appending::={ -1 { -1 +++= -1 ++++ -1 +++= -1  #SUP: 2
+Appending::={ -1 { -1 +++= -1 +++= -1  #SUP: 4
+Appending::={ -1 { -1  #SUP: 9
+Appending::={ -1 } -1 +++primitive -1 +++= -1 ++++ -1  #SUP: 2
+Appending::={ -1 } -1 +++primitive -1 +++= -1  #SUP: 4
+Appending::={ -1 } -1 ++++ -1  #SUP: 4
+Appending::={ -1 } -1 = -1  #SUP: 6
+Appending::={ -1 } -1 +++= -1 ++++ -1 +++= -1  #SUP: 2
+Appending::={ -1 } -1 +++= -1 = -1  #SUP: 4
+Appending::={ -1 } -1 +++= -1  #SUP: 5
+Appending::={ -1 } -1 ---= -1 +++= -1 = -1  #SUP: 2
+Appending::={ -1 } -1  #SUP: 8
+Appending::={ -1 = -1 = -1 new -1  #SUP: 3
+Appending::={ -1 = -1 = -1  #SUP: 7
+Appending::={ -1 = -1  #SUP: 8
+Appending::={ -1 ---= -1 = -1  #SUP: 3
+({ )  Sequence ID: 0 1 2 4 5 6 7 8 9 11 12 13     
+Appending::={ -1  #SUP: 12
+Appending::=} -1 ++++ -1  #SUP: 5
+Appending::=} -1 = -1  #SUP: 8
+Appending::=} -1 +++= -1 ++++ -1 +++= -1  #SUP: 3
+Appending::=} -1 +++= -1 = -1  #SUP: 5
+Appending::=} -1 +++= -1  #SUP: 6
+(} )  Sequence ID: 0 1 2 3 4 5 6 7 8 9 10 12     
+Appending::=} -1  #SUP: 12
+Appending::=return -1 } -1  #SUP: 3
+(return )  Sequence ID: 0 10 12     
+Appending::=---{ -1 +++{ -1 } -1  #SUP: 2
+Appending::=---{ -1 +++{ -1  #SUP: 3
+(---{ )  Sequence ID: 2 5 10     
+(if(condition) )  Sequence ID: 2 4 6     
+(---return )  Sequence ID: 0 1     
+Appending::=method(parameters) -1 type -1 object -1 = -1 new -1  #SUP: 3
+Appending::=method(parameters) -1 type -1 object -1 = -1  #SUP: 5
+Appending::=method(parameters) -1 + -1  #SUP: 3
+Appending::=method(parameters) -1 new -1  #SUP: 4
+Appending::=method(parameters) -1 { -1 type -1 object -1 = -1 new -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 type -1 object -1 = -1  #SUP: 4
+Appending::=method(parameters) -1 { -1 new -1  #SUP: 3
+Appending::=method(parameters) -1 { -1 ++++ -1 + -1 constant; -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 ++++ -1  #SUP: 4
+Appending::=method(parameters) -1 { -1 { -1 +++primitive -1 +++= -1 primitive -1 = -1 primitive -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 { -1 +++primitive -1 +++= -1 +++= -1 primitive -1 = -1 { -1  #SUP: 3
+Appending::=method(parameters) -1 { -1 { -1 +++primitive -1 +++= -1 +++= -1 primitive -1 = -1 primitive -1  #SUP: 3
+Appending::=method(parameters) -1 { -1 { -1 ++++ -1 = -1 primitive -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 { -1 ++++ -1 primitive -1 = -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 { -1 ++++ -1  #SUP: 3
+Appending::=method(parameters) -1 { -1 { -1 = -1 primitive -1 { -1  #SUP: 4
+Appending::=method(parameters) -1 { -1 { -1 = -1  #SUP: 5
+Appending::=method(parameters) -1 { -1 { -1 primitive -1 = -1 { -1  #SUP: 4
+Appending::=method(parameters) -1 { -1 { -1 primitive -1 = -1 primitive -1 { -1  #SUP: 3
+Appending::=method(parameters) -1 { -1 { -1  #SUP: 7
+Appending::=method(parameters) -1 { -1 } -1 { -1 ++++ -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 } -1 { -1 = -1  #SUP: 4
+Appending::=method(parameters) -1 { -1 } -1 { -1 +++primitive -1 +++= -1 primitive -1 = -1  #SUP: 3
+Appending::=method(parameters) -1 { -1 } -1 { -1  #SUP: 5
+Appending::=method(parameters) -1 { -1 } -1 ++++ -1 = -1 { -1  #SUP: 3
+Appending::=method(parameters) -1 { -1 } -1 ++++ -1 = -1 primitive -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 } -1 ++++ -1 primitive -1 = -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 } -1 = -1  #SUP: 5
+Appending::=method(parameters) -1 { -1 } -1 primitive -1 = -1  #SUP: 4
+Appending::=method(parameters) -1 { -1 } -1  #SUP: 6
+Appending::=method(parameters) -1 { -1 = -1 { -1  #SUP: 6
+Appending::=method(parameters) -1 { -1 = -1 = -1 new -1  #SUP: 2
+Appending::=method(parameters) -1 { -1 = -1 = -1  #SUP: 6
+Appending::=method(parameters) -1 { -1 = -1  #SUP: 7
+Appending::=method(parameters) -1 { -1 ---= -1 = -1  #SUP: 2
+Appending::=method(parameters) -1 { -1  #SUP: 10
+Appending::=method(parameters) -1 ++++ -1  #SUP: 5
+Appending::=method(parameters) -1 } -1 if(condition) -1 { -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 } -1 { -1  #SUP: 7
+Appending::=method(parameters) -1 } -1 ++++ -1 = -1 { -1  #SUP: 4
+Appending::=method(parameters) -1 } -1 = -1 { -1  #SUP: 5
+Appending::=method(parameters) -1 } -1 = -1 if(condition) -1 { -1  #SUP: 3
+Appending::=method(parameters) -1 } -1 = -1  #SUP: 7
+Appending::=method(parameters) -1 } -1 primitive -1 = -1 { -1  #SUP: 3
+Appending::=method(parameters) -1 } -1 primitive -1 = -1 if(condition) -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 } -1 primitive -1 = -1  #SUP: 5
+Appending::=method(parameters) -1 } -1 +++= -1 ++++ -1 +++= -1 = -1 if(condition) -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 } -1 +++= -1 = -1  #SUP: 4
+Appending::=method(parameters) -1 } -1  #SUP: 8
+Appending::=method(parameters) -1 = -1 { -1  #SUP: 8
+Appending::=method(parameters) -1 = -1 = -1 new -1  #SUP: 3
+Appending::=method(parameters) -1 = -1 = -1  #SUP: 8
+Appending::=method(parameters) -1 = -1 primitive -1 { -1  #SUP: 5
+Appending::=method(parameters) -1 = -1  #SUP: 9
+Appending::=method(parameters) -1 primitive -1 = -1 + -1 if(condition) -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 primitive -1 = -1 { -1  #SUP: 5
+Appending::=method(parameters) -1 primitive -1 = -1 primitive -1 { -1  #SUP: 4
+Appending::=method(parameters) -1 primitive -1 = -1 primitive -1 if(condition) -1 { -1  #SUP: 2
+Appending::=method(parameters) -1 +++= -1 +++= -1 = -1 { -1  #SUP: 4
+(method(parameters) )  Sequence ID: 1 2 4 5 6 7 8 9 11 13     
+(new )  Sequence ID: 5 6 11 12 13     
+Appending::=new -1  #SUP: 5
+(static )  Sequence ID: 8 9 12     
+(+++Math.min(callparameters, )  Sequence ID: 8 9     
+(+++double )  Sequence ID: 8 9     
+(+++object.method(callparameters, )  Sequence ID: 8 9     
+(+++callparameters); )  Sequence ID: 8 9 13     
+(constant; )  Sequence ID: 1 4     
+(if(NOT_A_NUMBER) )  Sequence ID: 8 9     
+Appending::=+++= -1 +++= -1  #SUP: 5
+(+++= )  Sequence ID: 0 4 6 8 9 12     
+Appending::=public -1 type -1 method(parameters) -1 throw -1 new -1 exception(object); -1 } -1 type -1 object -1 = -1 ++++ -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 throw -1 new -1 exception(object); -1 } -1 ++++ -1 ++++ -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 for(loop) -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 int -1 primitive -1 = -1 +++{ -1 = -1 { -1 = -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 } -1 ++++ -1 +++} -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 } -1 { -1 = -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 } -1 primitive -1 = -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 } -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 = -1 primitive -1 = -1 { -1 = -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 = -1 primitive -1 = -1 +++{ -1 = -1 { -1 = -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 +++} -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 +++{ -1 +++} -1 = -1 primitive -1 = -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1 +++{ -1 +++} -1 primitive -1 = -1 { -1 = -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 { -1  #SUP: 5
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 ++++ -1 type -1 object -1 = -1 object -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 ++++ -1 type -1 object -1 = -1 = -1 type -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 ++++ -1 type -1 object -1 = -1 = -1 ++++ -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 ++++ -1 +++{ -1 type -1 object -1 = -1 object -1 = -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 ++++ -1 +++{ -1 type -1 object -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 { -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 { -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 = -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 = -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 +++{ -1 type -1 object -1 = -1 object -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 +++{ -1 type -1 object -1 = -1 = -1 type -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 +++{ -1 type -1 object -1 = -1 = -1 ++++ -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 } -1 +++{ -1 ++++ -1 +++} -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 = -1 { -1 } -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 = -1 { -1 +++} -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 = -1 = -1 { -1 } -1 } -1 } -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 = -1 = -1 { -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 = -1 = -1 { -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 { -1 = -1 = -1 } -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 = -1 = -1 +++} -1 } -1 } -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 { -1 } -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 = -1 { -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 = -1 { -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 = -1 = -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 = -1 = -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 = -1 } -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 +++} -1 } -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 { -1 +++{ -1 +++} -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 = -1 for(loop) -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 = -1 } -1 } -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 = -1 = -1 if(condition) -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 = -1 = -1 { -1  #SUP: 6
+Appending::=public -1 type -1 method(parameters) -1 = -1 = -1 } -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 = -1 primitive -1 = -1 { -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 = -1 +++= -1 = -1 { -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 = -1 +++= -1 +++= -1 { -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 = -1 +++= -1 +++= -1 = -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 } -1 type -1 object -1 = -1 ++++ -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 } -1 type -1 object -1 = -1 = -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 } -1 { -1  #SUP: 6
+Appending::=public -1 type -1 method(parameters) -1 } -1 ++++ -1 ++++ -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 } -1 ++++ -1 = -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 } -1 = -1 { -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 } -1 = -1 } -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 } -1 = -1 if(condition) -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 } -1 = -1  #SUP: 6
+Appending::=public -1 type -1 method(parameters) -1 } -1 } -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 } -1 +++if(condition) -1 +++{ -1 primitive -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 } -1 primitive -1 = -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 } -1 ---{ -1 +++if(condition) -1 +++{ -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 } -1 +++= -1 = -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 } -1 +++{ -1 = -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 } -1 +++{ -1 = -1 } -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 primitive -1 = -1 } -1 primitive -1 = -1 } -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 primitive -1 = -1 ---{ -1 +++if(condition) -1 +++{ -1 = -1 { -1  #SUP: 2
+Appending::=public -1 type -1 method(parameters) -1 primitive -1 = -1 +++{ -1 = -1 { -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 primitive -1 = -1 +++{ -1 primitive -1 = -1 } -1 { -1  #SUP: 3
+Appending::=public -1 type -1 method(parameters) -1 +++{ -1 = -1 { -1  #SUP: 5
+Appending::=public -1 type -1 method(parameters) -1 +++{ -1 = -1 } -1  #SUP: 4
+Appending::=public -1 type -1 method(parameters) -1 +++{ -1 primitive -1 = -1 { -1  #SUP: 4
+Appending::=public -1 type -1 new -1 = -1 new -1  #SUP: 2
+Appending::=public -1 type -1 new -1 = -1  #SUP: 3
+Appending::=public -1 type -1 = -1 = -1  #SUP: 7
+Appending::=public -1 boolean -1 { -1 return -1 false; -1 } -1 +++= -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 type -1 object -1 = -1 = -1 new -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 type -1 object -1 = -1 = -1  #SUP: 4
+Appending::=public -1 method(parameters) -1 + -1 } -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 new -1 = -1 new -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 new -1 = -1  #SUP: 3
+Appending::=public -1 method(parameters) -1 { -1 type -1 object -1 = -1 = -1  #SUP: 3
+Appending::=public -1 method(parameters) -1 { -1 ---constant -1 ++++ -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 { -1 new -1 = -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 { -1 +++return -1 ++++ -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 { -1 ++++ -1 ++++ -1 } -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 { -1 ++++ -1 ++++ -1  #SUP: 3
+Appending::=public -1 method(parameters) -1 { -1 } -1  #SUP: 5
+Appending::=public -1 method(parameters) -1 { -1 = -1 = -1  #SUP: 5
+Appending::=public -1 method(parameters) -1 { -1 +++method(callparameters); -1 type -1 object -1 = -1 = -1  #SUP: 2
+Appending::=public -1 method(parameters) -1 { -1  #SUP: 8
+Appending::=public -1 method(parameters) -1 ++++ -1 ++++ -1  #SUP: 4
+Appending::=public -1 method(parameters) -1 } -1  #SUP: 7
+Appending::=public -1 method(parameters) -1 = -1 = -1  #SUP: 7
+Appending::=public -1 static -1 type -1 method(parameters) -1 { -1 for(loop) -1 { -1 int -1 primitive -1 = -1 for(loop) -1 { -1 +++double -1 +++primitive -1 +++= -1 +++object.method(callparameters, -1 +++callparameters); -1 primitive -1 = -1 +++primitive -1 +++= -1 +++Math.max(callparameters, -1 +++callparameters); -1 } -1 if(NOT_A_NUMBER) -1 { -1 +++primitive -1 +++= -1 +++Math.min(callparameters, -1 +++callparameters); -1 primitive -1 = -1 Math.max(callparameters); -1 } -1 } -1  #SUP: 2
+Appending::=public -1 static -1 type -1 method(parameters) -1 { -1 for(loop) -1 { -1 int -1 primitive -1 = -1 for(loop) -1 { -1 +++double -1 +++primitive -1 +++= -1 +++object.method(callparameters, -1 +++callparameters); -1 +++{ -1 +++primitive -1 +++= -1 +++Math.min(callparameters, -1 +++callparameters); -1 +++primitive -1 +++= -1 +++Math.max(callparameters, -1 +++callparameters); -1 +++} -1 { -1 primitive -1 = -1 Math.min(callparameters); -1 +++= -1 +++Math.max(callparameters, -1 +++callparameters); -1 } -1 if(NOT_A_NUMBER) -1 { -1 +++primitive -1 +++= -1 +++Math.min(callparameters, -1 +++callparameters); -1 primitive -1 = -1 Math.max(callparameters); -1 } -1 } -1  #SUP: 2
+Appending::=public -1 static -1 { -1 = -1 +++= -1 = -1 = -1 = -1  #SUP: 2
+Appending::=public -1 static -1 { -1 = -1 +++= -1 = -1 = -1  #SUP: 3
+Appending::=public -1 static -1 { -1 } -1 +++= -1 = -1  #SUP: 3
+Appending::=public -1 new -1 = -1 new -1  #SUP: 3
+Appending::=public -1 new -1 = -1 = -1  #SUP: 3
+Appending::=public -1 new -1 = -1  #SUP: 4
+Appending::=public -1 { -1 new -1 = -1 = -1  #SUP: 2
+Appending::=public -1 { -1 new -1 = -1  #SUP: 3
+Appending::=public -1 { -1 { -1 ---constant -1 ++++ -1  #SUP: 2
+Appending::=public -1 { -1 { -1 ---return -1 ++++ -1 +++return -1 ++++ -1 } -1  #SUP: 2
+Appending::=public -1 { -1 { -1 +++primitive -1 +++= -1 +++{ -1 +++} -1 } -1  #SUP: 3
+Appending::=public -1 { -1 { -1 +++return -1 ++++ -1  #SUP: 3
+Appending::=public -1 { -1 { -1 ++++ -1 ++++ -1  #SUP: 3
+Appending::=public -1 { -1 { -1 ++++ -1 } -1  #SUP: 3
+Appending::=public -1 { -1 { -1 ++++ -1  #SUP: 4
+Appending::=public -1 { -1 { -1 } -1 ++++ -1 ++++ -1 +++if(condition) -1 +++{ -1  #SUP: 2
+Appending::=public -1 { -1 { -1 } -1 ++++ -1 +++} -1 } -1  #SUP: 2
+Appending::=public -1 { -1 { -1 } -1 ++++ -1 +++} -1  #SUP: 3
+Appending::=public -1 { -1 { -1 } -1 } -1  #SUP: 4
+Appending::=public -1 { -1 { -1 } -1 +++primitive -1 +++= -1 } -1  #SUP: 3
+Appending::=public -1 { -1 { -1 } -1 +++if(condition) -1 +++{ -1 +++return -1 ++++ -1 +++} -1 ++++ -1  #SUP: 2
+Appending::=public -1 { -1 { -1 } -1 +++{ -1 ++++ -1 +++if(condition) -1 +++{ -1  #SUP: 2
+Appending::=public -1 { -1 { -1 } -1  #SUP: 6
+Appending::=public -1 { -1 { -1 +++= -1 +++primitive -1 +++= -1 +++} -1 } -1  #SUP: 3
+Appending::=public -1 { -1 { -1 +++} -1 } -1  #SUP: 4
+Appending::=public -1 { -1 { -1 +++} -1  #SUP: 5
+Appending::=public -1 { -1 { -1 +++{ -1 +++} -1  #SUP: 4
+Appending::=public -1 { -1 { -1  #SUP: 7
+Appending::=public -1 { -1 ++++ -1 ++++ -1 } -1  #SUP: 3
+Appending::=public -1 { -1 ++++ -1 ++++ -1  #SUP: 4
+Appending::=public -1 { -1 } -1 Iterator -1 = -1  #SUP: 2
+Appending::=public -1 { -1 } -1 ++++ -1 ++++ -1  #SUP: 3
+Appending::=public -1 { -1 } -1 ++++ -1 +++{ -1 ++++ -1 +++} -1 } -1  #SUP: 2
+Appending::=public -1 { -1 } -1 ++++ -1 +++{ -1  #SUP: 3
+Appending::=public -1 { -1 } -1 = -1 = -1 = -1 = -1  #SUP: 2
+Appending::=public -1 { -1 } -1 = -1 = -1  #SUP: 3
+Appending::=public -1 { -1 } -1 = -1  #SUP: 5
+Appending::=public -1 { -1 } -1 +++= -1  #SUP: 4
+Appending::=public -1 { -1 } -1 +++{ -1 ++++ -1 +++} -1  #SUP: 3
+Appending::=public -1 { -1 } -1  #SUP: 7
+Appending::=public -1 { -1 = -1 = -1 = -1 = -1  #SUP: 3
+Appending::=public -1 { -1 = -1 = -1 = -1  #SUP: 4
+Appending::=public -1 { -1 = -1 = -1  #SUP: 6
+Appending::=public -1 { -1 +++{ -1 +++} -1 } -1  #SUP: 4
+Appending::=public -1 { -1 +++{ -1 +++} -1  #SUP: 5
+Appending::=public -1 { -1 public -1 method(parameters) -1 { -1 ++++ -1 } -1  #SUP: 2
+Appending::=public -1 { -1 ---= -1 = -1 new -1 = -1 new -1  #SUP: 2
+Appending::=public -1 { -1  #SUP: 10
+Appending::=public -1 ++++ -1 ++++ -1  #SUP: 5
+Appending::=public -1 } -1 ++++ -1 ++++ -1  #SUP: 4
+Appending::=public -1 } -1 ++++ -1 +++= -1 ++++ -1 +++= -1  #SUP: 2
+Appending::=public -1 } -1 } -1  #SUP: 5
+Appending::=public -1 } -1 = -1 = -1  #SUP: 4
+Appending::=public -1 } -1 = -1 +++= -1 = -1 new -1  #SUP: 2
+Appending::=public -1 } -1 = -1  #SUP: 7
+Appending::=public -1 } -1 +++if(condition) -1 +++{ -1 } -1  #SUP: 2
+Appending::=public -1 } -1 +++if(condition) -1 +++{ -1  #SUP: 3
+Appending::=public -1 } -1 +++= -1 = -1  #SUP: 4
+Appending::=public -1 } -1 +++= -1  #SUP: 5
+Appending::=public -1 } -1 +++{ -1 } -1  #SUP: 3
+Appending::=public -1 } -1 +++{ -1  #SUP: 4
+Appending::=public -1 } -1  #SUP: 9
+Appending::=public -1 = -1 = -1 new -1  #SUP: 3
+Appending::=public -1 = -1 = -1  #SUP: 8
+Appending::=public -1 = -1 +++= -1 = -1  #SUP: 4
+Appending::=public -1 +++= -1 +++= -1  #SUP: 4
+Appending::=public -1 +++{ -1 } -1  #SUP: 5
+Appending::=public -1 +++{ -1  #SUP: 6
+(public )  Sequence ID: 0 1 2 5 6 7 8 9 11 12     
+(++++ )  Sequence ID: 0 1 4 5 6 7     
+Appending::=++++ -1  #SUP: 6
+(Iterator )  Sequence ID: 7 12     
+(Math.max(callparameters); )  Sequence ID: 8 9     
+(false; )  Sequence ID: 0 12     
+(+++Math.max(callparameters, )  Sequence ID: 8 9     
+(int )  Sequence ID: 5 8 9     
+(+++return )  Sequence ID: 0 1 5     
+(boolean )  Sequence ID: 0 12     
+=============  Algorithm - STATISTICS =============
+ Total time ~ 68133 ms
+ Closed sequential patterns count : 286
+ Max memory (mb):95.54933166503906
+===================================================
+
