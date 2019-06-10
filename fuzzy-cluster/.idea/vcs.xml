@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bug-dataset" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bug-dataset/output/bower" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/changedistiller" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dataset" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/defects4j" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fixminer-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gumtree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gumtree/benchmark/build/classes/java/jmh/bug-dataset" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gumtree/benchmark/build/classes/java/jmh/bug-dataset/output/bower" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gumtree/benchmark/build/classes/java/jmh/defects4j" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gumtree/benchmark/build/classes/java/jmh/fixminer-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gumtree/benchmark/build/classes/java/jmh/gumtree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javaparser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javaparser-maven-sample" vcs="Git" />
+  </component>
+</project>
