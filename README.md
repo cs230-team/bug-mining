@@ -14,4 +14,4 @@ ChangeDistiller -> contains code and data for generating Change Distiller diffs
 
 fuzzy-cluster -> contains code and data for fuzzy clusters generated from change distiller diffs
 
-seq_mining -> contains code and data for patterns obtained by sequence mining
+seq_mining -> contains code and data for patterns obtained by sequence mining.
