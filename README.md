@@ -17,9 +17,13 @@ fuzzy-cluster -> contains code and data for fuzzy clusters generated from change
 seq_mining -> contains code and data for patterns obtained by sequence mining.
 
 We have done pair programming in the following aspects to try and run all these tools on the chosen datasets to extract clusters:
-Soundarya and Rupa performed dataset identification.
-Rupa and Pooja worked on extracting ChangeDistiller Change Types.
-Pooja and Soundarya configured Fixminer to run on Defects4J.
+Pooja -Soundarya- running fix-miner tool for defects4j, clustering of bugs based on ChangeDistiller change types. 
+Rupa - Soundarya -running fix-miner tool for defects4j, clustering of bugs based on ChangeDistiller change types. 
+Jaspreet- Running BugAid tool for BugsJS and it’s cluster analysis, found bugsjson, defects4j, general research
+Soundarya-dataset identification, related work
+Anurag - wrote script for clustering, of FixMiner based on Defects4j patterns
+Swati- Wrote script to convert Defects4J bug-fixes to format required by SPMF data mining. Ran PrefixSpan and BIDE algorithm to find fix-patterns using sequential pattern mining
+
 
 
 
