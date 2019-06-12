@@ -17,9 +17,9 @@ fuzzy-cluster -> contains code and data for fuzzy clusters generated from change
 seq_mining -> contains code and data for patterns obtained by sequence mining.
 
 We have done pair programming in the following aspects to try and run all these tools on the chosen datasets to extract clusters:
-
 Soundarya and Rupa performed dataset identification.
-Pooja and Soundarya configured Fixminer to run on Defects4J.
 Rupa and Pooja worked on extracting ChangeDistiller Change Types.
+Pooja and Soundarya configured Fixminer to run on Defects4J.
+
 
 
